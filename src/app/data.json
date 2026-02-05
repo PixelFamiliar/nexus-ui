@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": "2026-02-05-sentinel-scanner.md",
+      "title": "Implement sentinel-scanner Skill",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "19:16:29"
+    },
+    {
+      "id": "2026-02-03-agent-discourse-tracker.md",
+      "title": "Build \"The Agent Discourse Tracker\"",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "13:26:46"
+    },
+    {
+      "id": "2026-02-03-agent-infrastructure-research-digital.md",
+      "title": "Digital Infrastructure & Growth Strategy (Pivot)",
+      "agent": "** FRIDAY | HERMES",
+      "status": "REVIEW",
+      "updated": "07:47:46"
+    },
+    {
+      "id": "2026-02-03-niche-research.md",
+      "title": "Research Profitable Niches for Content",
+      "agent": "** RESEARCHER",
+      "status": "DONE",
+      "updated": "13:01:02"
+    }
+  ],
+  "alpha": [
+    {
+      "rank": 1,
+      "source": "X",
+      "handle": "DentalAkimoto",
+      "title": "\u4eca\u671d\u306e\u7a7a\u304d\u6642\u9593\u306b\n\u30fb\u4e88\u7d04\u524d\u65e5\u306e\u60a3\u8005\u3055\u3093\u3078\u306e\u30ea\u30de\u30a4\u30f3\u30c9LINE\u3092\u81ea\u52d5\u5316\n\u30fb\u7d39\u4ecb\u72b6\u306e\u4f5c\u6210\u3092\u534a\u81ea\u52d5\u5316\n\u3092\u5b8c\u4e86\uff01\n\u3053\u3053\u6570\u65e5\u3067\u300c\u672a\u6765\u306e\u50cd\u304d\u65b9\u300d\u3092\u4f53\u611f\u3057\u3066\u308b\ud83d\ude0e\n#OpenClaw https://t.co/d03...",
+      "time": "2026-02-05 01:42:33"
+    },
+    {
+      "rank": 2,
+      "source": "X",
+      "handle": "yubing744",
+      "title": "\u6211\u5df2\u7ecf\u5f00\u59cb\u4f7f\u7528\u77e5\u8bc6\u84b8\u998f\u7406\u8bba\u548cOpenClaw\u5f00\u59cb\u5b66\u4e60\u6697\u77e5\u8bc6\u4e86\u3002\u4e0b\u9762\u662f\u4eca\u5929\u65e9\u4e0aOpenClaw\u63a8\u9001\u7ed9\u6211\u7684\u6295\u8d44\u77e5\u8bc6\uff1a\n\n\u3010\u6295\u8d44\u8bad\u7ec3 #8\u3011SaaS/\u8ba2\u9605\uff1a\u770b\u7559\u5b58\u6bd4\u770b\u589e\u957f\u66f4\u91cd\u8981\n- \u84b8\u998f\uff1a\u7eed\u8d39/\u7559\u5b58\u662f\u5730\u57fa\uff0c...",
+      "time": "2026-02-05 01:42:33"
+    },
+    {
+      "rank": 3,
+      "source": "X",
+      "handle": "TanckyK",
+      "title": "\u5176\u5b9e\u60f3\u6df1\u5ea6\u4f53\u9a8copenclaw\uff0c\u817e\u8baf\u4e91VPS\uff0820\u5143/\u6708\uff09 + \u54b8\u9c7cGPT5.2\u62fc\u8f66\uff0810\u5143\u5de6\u53f3\uff09\u5c31\u53ef\u4ee5\u6709\u975e\u5e38\u4e1d\u6ed1\u7684\u4f53\u9a8c\u4e86...",
+      "time": "2026-02-05 01:42:33"
+    },
+    {
+      "rank": 4,
+      "source": "X",
+      "handle": "junwatu",
+      "title": "@nusendra_ My VPS was 3GB and ran OpenClaw really well. Raspberry Pi with 4GB is faster, I guess....",
+      "time": "2026-02-05 01:42:33"
+    },
+    {
+      "rank": 5,
+      "source": "X",
+      "handle": "ApplyWiseAi",
+      "title": "1. @techfrenAJ's OpenClaw\u2014open source personal AI you deploy on AWS free tier in under 5 minutes wit...",
+      "time": "2026-02-05 01:42:33"
+    }
+  ],
+  "last_update": "2026-02-05 17:22:47"
+}
