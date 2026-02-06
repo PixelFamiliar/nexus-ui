@@ -97,8 +97,8 @@
     {
       "ticker": "MOH",
       "name": "Molina Healthcare",
-      "change": "+2400.0%",
-      "mentions": 25
+      "change": "+1700.0%",
+      "mentions": 18
     },
     {
       "ticker": "APP",
@@ -107,5 +107,5 @@
       "mentions": 11
     }
   ],
-  "last_update": "2026-02-06 15:00:59"
+  "last_update": "2026-02-06 15:31:11"
 }
