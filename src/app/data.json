@@ -22,6 +22,13 @@
       "updated": "07:47:46"
     },
     {
+      "id": "2026-02-04-unbrowse-polymarket.md",
+      "title": "Implement Unbrowse Sensor for Polymarket",
+      "agent": "** JARVIS",
+      "status": "REVIEW",
+      "updated": "18:39:35"
+    },
+    {
       "id": "2026-02-03-niche-research.md",
       "title": "Research Profitable Niches for Content",
       "agent": "** RESEARCHER",
@@ -66,5 +73,5 @@
       "time": "2026-02-05 01:42:33"
     }
   ],
-  "last_update": "2026-02-05 18:31:49"
+  "last_update": "2026-02-05 18:58:44"
 }
