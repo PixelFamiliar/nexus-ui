@@ -87,5 +87,25 @@
       "time": "2026-02-06 19:20:40"
     }
   ],
-  "last_update": "2026-02-06 13:22:09"
+  "market_intel": [
+    {
+      "ticker": "BYD",
+      "name": "Boyd Gaming",
+      "change": "+3100.0%",
+      "mentions": 32
+    },
+    {
+      "ticker": "MOH",
+      "name": "Molina Healthcare",
+      "change": "+2400.0%",
+      "mentions": 25
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "change": "+650.0%",
+      "mentions": 15
+    }
+  ],
+  "last_update": "2026-02-06 13:22:38"
 }
