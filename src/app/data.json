@@ -97,8 +97,8 @@
     {
       "ticker": "LITE",
       "name": "Lumentum",
-      "change": "+300.0%",
-      "mentions": 16
+      "change": "+325.0%",
+      "mentions": 17
     },
     {
       "ticker": "IWM",
@@ -107,5 +107,5 @@
       "mentions": 16
     }
   ],
-  "last_update": "2026-02-06 16:02:09"
+  "last_update": "2026-02-06 16:05:15"
 }
