@@ -95,17 +95,17 @@
       "mentions": 32
     },
     {
-      "ticker": "MOH",
-      "name": "Molina Healthcare",
-      "change": "+1700.0%",
-      "mentions": 18
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "change": "+300.0%",
+      "mentions": 16
     },
     {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "change": "+1000.0%",
-      "mentions": 11
+      "ticker": "IWM",
+      "name": "BlackRock Institutional Trust Company N.A. - BTC iShares Russell 2000",
+      "change": "+300.0%",
+      "mentions": 16
     }
   ],
-  "last_update": "2026-02-06 15:31:11"
+  "last_update": "2026-02-06 16:01:16"
 }
