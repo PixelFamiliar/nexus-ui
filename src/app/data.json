@@ -118,15 +118,15 @@
     {
       "ticker": "DOW",
       "name": "Dow",
-      "change": "+485.71428571428567%",
-      "mentions": 41
+      "change": "+442.8571428571429%",
+      "mentions": 38
     },
     {
       "ticker": "HIMS",
       "name": "Hims &amp; Hers Health",
-      "change": "+112.24489795918366%",
+      "change": "+116.66666666666667%",
       "mentions": 104
     }
   ],
-  "last_update": "2026-02-07 12:30:34"
+  "last_update": "2026-02-07 12:47:56"
 }
