@@ -87,25 +87,6 @@
       "time": "2026-02-06 19:20:40"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "BYD",
-      "name": "Boyd Gaming",
-      "change": "+3100.0%",
-      "mentions": 32
-    },
-    {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "change": "+325.0%",
-      "mentions": 17
-    },
-    {
-      "ticker": "IWM",
-      "name": "BlackRock Institutional Trust Company N.A. - BTC iShares Russell 2000",
-      "change": "+300.0%",
-      "mentions": 16
-    }
-  ],
-  "last_update": "2026-02-06 16:05:15"
+  "market_intel": [],
+  "last_update": "2026-02-06 18:35:36"
 }
