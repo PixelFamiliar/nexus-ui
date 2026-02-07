@@ -29,6 +29,13 @@
       "updated": "19:28:51"
     },
     {
+      "id": "2026-02-07-substack-clawphone.md",
+      "title": "Substack Deep Dive: ClawPhone",
+      "agent": "** WRITER",
+      "status": "REVIEW",
+      "updated": "08:40:52"
+    },
+    {
       "id": "2026-02-03-agent-infrastructure-research-digital.md",
       "title": "Digital Infrastructure & Growth Strategy (Pivot)",
       "agent": "** FRIDAY | HERMES",
@@ -48,6 +55,13 @@
       "agent": "** RESEARCHER",
       "status": "DONE",
       "updated": "13:01:02"
+    },
+    {
+      "id": "2026-02-07-sentinel-sandbox.md",
+      "title": "Sentinel Sandbox Implementation",
+      "agent": "** SENTINEL",
+      "status": "DONE",
+      "updated": "08:40:48"
     }
   ],
   "alpha": [
@@ -107,5 +121,5 @@
       "mentions": 40
     }
   ],
-  "last_update": "2026-02-07 08:35:21"
+  "last_update": "2026-02-07 08:41:04"
 }
