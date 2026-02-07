@@ -95,17 +95,17 @@
       "mentions": 26
     },
     {
-      "ticker": "DOW",
-      "name": "Dow",
-      "change": "+263.6363636363636%",
-      "mentions": 40
-    },
-    {
       "ticker": "LITE",
       "name": "Lumentum",
       "change": "+240.0%",
       "mentions": 17
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow",
+      "change": "+233.33333333333334%",
+      "mentions": 40
     }
   ],
-  "last_update": "2026-02-07 01:30:06"
+  "last_update": "2026-02-07 02:00:13"
 }
