@@ -112,21 +112,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+3900.0%",
-      "mentions": 40
+      "change": "+4000.0%",
+      "mentions": 41
     },
     {
       "ticker": "DOW",
       "name": "Dow",
-      "change": "+583.3333333333333%",
+      "change": "+485.71428571428567%",
       "mentions": 41
     },
     {
       "ticker": "HIMS",
       "name": "Hims &amp; Hers Health",
-      "change": "+90.74074074074075%",
-      "mentions": 103
+      "change": "+112.24489795918366%",
+      "mentions": 104
     }
   ],
-  "last_update": "2026-02-07 12:00:37"
+  "last_update": "2026-02-07 12:30:34"
 }
