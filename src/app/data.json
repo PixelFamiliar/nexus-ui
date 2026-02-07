@@ -91,8 +91,8 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+350.0%",
-      "mentions": 18
+      "change": "+375.0%",
+      "mentions": 19
     },
     {
       "ticker": "POET",
@@ -107,5 +107,5 @@
       "mentions": 15
     }
   ],
-  "last_update": "2026-02-06 20:20:39"
+  "last_update": "2026-02-06 20:51:52"
 }
