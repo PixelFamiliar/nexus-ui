@@ -87,6 +87,25 @@
       "time": "2026-02-06 19:20:40"
     }
   ],
-  "market_intel": [],
-  "last_update": "2026-02-06 23:01:39"
+  "market_intel": [
+    {
+      "ticker": "GLP",
+      "name": "Global Partners LP",
+      "change": "+2100.0%",
+      "mentions": 22
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow",
+      "change": "+272.7272727272727%",
+      "mentions": 41
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "change": "+220.00000000000003%",
+      "mentions": 16
+    }
+  ],
+  "last_update": "2026-02-06 23:01:45"
 }
