@@ -95,17 +95,17 @@
       "mentions": 26
     },
     {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "change": "+1000.0%",
+      "mentions": 11
+    },
+    {
       "ticker": "LITE",
       "name": "Lumentum",
       "change": "+240.0%",
       "mentions": 17
-    },
-    {
-      "ticker": "DOW",
-      "name": "Dow",
-      "change": "+233.33333333333334%",
-      "mentions": 40
     }
   ],
-  "last_update": "2026-02-07 02:00:13"
+  "last_update": "2026-02-07 02:30:06"
 }
