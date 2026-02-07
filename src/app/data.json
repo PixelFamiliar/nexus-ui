@@ -89,12 +89,6 @@
   ],
   "market_intel": [
     {
-      "ticker": "BYD",
-      "name": "Boyd Gaming",
-      "change": "+1400.0%",
-      "mentions": 15
-    },
-    {
       "ticker": "GLP",
       "name": "Global Partners LP",
       "change": "+325.0%",
@@ -105,7 +99,13 @@
       "name": "POET Technologies",
       "change": "+300.0%",
       "mentions": 12
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "change": "+275.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-06 19:13:40"
+  "last_update": "2026-02-06 19:18:35"
 }
