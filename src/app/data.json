@@ -91,21 +91,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+2200.0%",
-      "mentions": 23
-    },
-    {
-      "ticker": "OS",
-      "name": "OneStream",
-      "change": "+280.0%",
-      "mentions": 19
+      "change": "+2300.0%",
+      "mentions": 24
     },
     {
       "ticker": "DOW",
       "name": "Dow",
       "change": "+272.7272727272727%",
       "mentions": 41
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "change": "+220.00000000000003%",
+      "mentions": 16
     }
   ],
-  "last_update": "2026-02-06 23:59:36"
+  "last_update": "2026-02-07 00:30:07"
 }
