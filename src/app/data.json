@@ -91,8 +91,8 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+1250.0%",
-      "mentions": 27
+      "change": "+1550.0%",
+      "mentions": 33
     },
     {
       "ticker": "VRT",
@@ -103,9 +103,9 @@
     {
       "ticker": "DOW",
       "name": "Dow",
-      "change": "+200.0%",
-      "mentions": 39
+      "change": "+207.6923076923077%",
+      "mentions": 40
     }
   ],
-  "last_update": "2026-02-07 07:00:09"
+  "last_update": "2026-02-07 07:30:10"
 }
