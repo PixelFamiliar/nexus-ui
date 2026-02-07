@@ -105,21 +105,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+3400.0%",
-      "mentions": 35
-    },
-    {
-      "ticker": "VRT",
-      "name": "Vertiv Holdings",
-      "change": "+1000.0%",
-      "mentions": 11
+      "change": "+3500.0%",
+      "mentions": 36
     },
     {
       "ticker": "DOW",
       "name": "Dow",
       "change": "+344.44444444444446%",
       "mentions": 40
+    },
+    {
+      "ticker": "OS",
+      "name": "OneStream",
+      "change": "+125.0%",
+      "mentions": 18
     }
   ],
-  "last_update": "2026-02-07 09:00:15"
+  "last_update": "2026-02-07 09:30:21"
 }
