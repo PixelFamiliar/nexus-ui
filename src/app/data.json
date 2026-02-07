@@ -87,25 +87,6 @@
       "time": "2026-02-06 19:20:40"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "GLP",
-      "name": "Global Partners LP",
-      "change": "+2100.0%",
-      "mentions": 22
-    },
-    {
-      "ticker": "POET",
-      "name": "POET Technologies",
-      "change": "+300.0%",
-      "mentions": 12
-    },
-    {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "change": "+275.0%",
-      "mentions": 15
-    }
-  ],
-  "last_update": "2026-02-06 21:55:55"
+  "market_intel": [],
+  "last_update": "2026-02-06 22:26:51"
 }
