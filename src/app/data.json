@@ -118,7 +118,7 @@
     {
       "ticker": "DOW",
       "name": "Dow",
-      "change": "+500.0%",
+      "change": "+600.0%",
       "mentions": 42
     },
     {
@@ -128,5 +128,5 @@
       "mentions": 18
     }
   ],
-  "last_update": "2026-02-07 10:38:05"
+  "last_update": "2026-02-07 11:00:20"
 }
