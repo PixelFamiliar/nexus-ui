@@ -1,6 +1,27 @@
 {
   "tasks": [
     {
+      "id": "b9fb9624-682f-413d-86bb-77a29badbadd",
+      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:1",
+      "agent": "MAIN",
+      "status": "EXECUTING",
+      "updated": "23:49:08"
+    },
+    {
+      "id": "b135e1b6-14ba-443f-972d-480eb0843308",
+      "title": "Live Run: agent:main:cron:9928f803-f260-4b26-94cc-add874a19d61",
+      "agent": "MAIN",
+      "status": "EXECUTING",
+      "updated": "22:00:00"
+    },
+    {
+      "id": "9928f803-f260-4b26-94cc-add874a19d61",
+      "title": "Update MEMORY.md Heartbeat Task",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "22:00:00"
+    },
+    {
       "id": "2026-02-04-sponsor-deck.md",
       "title": "Draft Sponsor Deck",
       "agent": "** HERMES",
@@ -13,6 +34,13 @@
       "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
       "status": "IN PROGRESS",
       "updated": "21:32:51"
+    },
+    {
+      "id": "1a5e8c2c-3f83-48c9-8de8-ddb7778614a7",
+      "title": "Live Run: agent:main:telegram:group:-1003830836460",
+      "agent": "MAIN",
+      "status": "EXECUTING",
+      "updated": "21:03:09"
     },
     {
       "id": "build-setup-kit.md",
@@ -64,6 +92,20 @@
       "updated": "18:39:35"
     },
     {
+      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
+      "title": "Autonomous Sensing & Action",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "16:05:37"
+    },
+    {
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "16:00:00"
+    },
+    {
       "id": "2026-02-04-kumo-audit.md",
       "title": "Competitive Audit: Cloudflare Kumo UI",
       "agent": "** FRIDAY",
@@ -76,6 +118,13 @@
       "agent": "** JARVIS",
       "status": "IN PROGRESS",
       "updated": "13:26:46"
+    },
+    {
+      "id": "f45bdcfb-1b44-4213-b800-5e78a3a24107",
+      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:25",
+      "agent": "MAIN",
+      "status": "EXECUTING",
+      "updated": "12:11:26"
     },
     {
       "id": "2026-02-07-monetize-the-forge.md",
@@ -163,5 +212,5 @@
       "mentions": 17
     }
   ],
-  "last_update": "2026-02-08 15:56:10"
+  "last_update": "2026-02-08 15:58:17"
 }
