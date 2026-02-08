@@ -137,17 +137,17 @@
       "mentions": 11
     },
     {
-      "ticker": "EU",
-      "name": "enCore Energy",
-      "change": "+28.000000000000004%",
-      "mentions": 32
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "change": "+120.0%",
+      "mentions": 11
     },
     {
-      "ticker": "GLP",
-      "name": "Global Partners LP",
-      "change": "+25.71428571428571%",
-      "mentions": 44
+      "ticker": "AGI",
+      "name": "Alamos Gold",
+      "change": "+50.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-08 09:30:06"
+  "last_update": "2026-02-08 10:00:08"
 }
