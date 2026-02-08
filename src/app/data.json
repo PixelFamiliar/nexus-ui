@@ -119,21 +119,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+278.57142857142856%",
-      "mentions": 53
+      "change": "+223.52941176470588%",
+      "mentions": 55
     },
     {
       "ticker": "API",
       "name": "Agora.io",
-      "change": "+53.84615384615385%",
+      "change": "+42.857142857142854%",
       "mentions": 20
     },
     {
-      "ticker": "SGOV",
-      "name": "iShares Trust - iShares 0-3 Month Treasury Bond ETF",
-      "change": "+22.22222222222222%",
-      "mentions": 11
+      "ticker": "EU",
+      "name": "enCore Energy",
+      "change": "+13.333333333333334%",
+      "mentions": 34
     }
   ],
-  "last_update": "2026-02-07 19:00:05"
+  "last_update": "2026-02-07 19:52:46"
 }
