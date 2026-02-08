@@ -131,23 +131,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "GLP",
-      "name": "Global Partners LP",
-      "change": "+20.0%",
-      "mentions": 42
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange",
+      "change": "+175.0%",
+      "mentions": 11
     },
     {
       "ticker": "EU",
       "name": "enCore Energy",
-      "change": "+20.0%",
-      "mentions": 30
+      "change": "+28.000000000000004%",
+      "mentions": 32
     },
     {
-      "ticker": "API",
-      "name": "Agora.io",
-      "change": "+-33.33333333333333%",
-      "mentions": 12
+      "ticker": "GLP",
+      "name": "Global Partners LP",
+      "change": "+25.71428571428571%",
+      "mentions": 44
     }
   ],
-  "last_update": "2026-02-08 09:00:13"
+  "last_update": "2026-02-08 09:30:06"
 }
