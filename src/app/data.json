@@ -112,21 +112,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+1250.0%",
-      "mentions": 54
+      "change": "+372.7272727272727%",
+      "mentions": 52
+    },
+    {
+      "ticker": "UI",
+      "name": "Ubiquiti",
+      "change": "+83.33333333333334%",
+      "mentions": 11
     },
     {
       "ticker": "API",
       "name": "Agora.io",
-      "change": "+81.81818181818183%",
+      "change": "+66.66666666666666%",
       "mentions": 20
-    },
-    {
-      "ticker": "HIMS",
-      "name": "Hims &amp; Hers Health",
-      "change": "+58.620689655172406%",
-      "mentions": 92
     }
   ],
-  "last_update": "2026-02-07 17:30:43"
+  "last_update": "2026-02-07 18:30:15"
 }
