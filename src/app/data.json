@@ -22,6 +22,13 @@
       "updated": "13:26:46"
     },
     {
+      "id": "batch-001-ai-agent-workflows.md",
+      "title": "Content Batch 001 - AI Agent Workflows",
+      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
+      "status": "IN PROGRESS",
+      "updated": "21:32:51"
+    },
+    {
       "id": "2026-02-04-originality-moat.md",
       "title": "Originality & Niche Verification (The \"Originality Moat\")",
       "agent": "** FRIDAY | ATHENA",
@@ -82,36 +89,36 @@
     {
       "rank": 1,
       "source": "X",
-      "handle": "ihtesham2005",
-      "title": "10 People Made $847,000 Last Month Using AI Agents. Here's Exactly How They Did It. (Detailed analysis of 10 OpenClaw monetization methods)",
-      "time": "2026-02-07 15:59:55"
-    },
-    {
-      "rank": 2,
-      "source": "X",
       "handle": "kidneycryptodoc",
       "title": "Thanks Alex for all your helpful videos. Your energy is infectious on your channel. Also very easy t...",
       "time": "2026-02-08 00:38:03"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "source": "X",
       "handle": "itsjustlevine",
       "title": "My @openclaw friggin uninstalled itself while I was AFK over the weekend \ud83d\udc80\n\nSeems it was doing a sel...",
       "time": "2026-02-08 00:38:03"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "source": "X",
       "handle": "patxi_hastoy",
       "title": "@PeterDiamandis Moltbook + OpenClaw is genuinely a turning point, the first public, real-time glimps...",
       "time": "2026-02-08 00:38:03"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "source": "X",
       "handle": "Rohits79",
       "title": "@MysticEru @unusual_whales Only if you are opening your openclaw to make it happen. Yesterday's rele...",
+      "time": "2026-02-08 00:38:03"
+    },
+    {
+      "rank": 5,
+      "source": "X",
+      "handle": "drewddahlin",
+      "title": "@jessegenet @openclaw Sounds interesting...",
       "time": "2026-02-08 00:38:03"
     }
   ],
@@ -119,21 +126,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+229.41176470588235%",
-      "mentions": 56
+      "change": "+77.77777777777779%",
+      "mentions": 48
     },
     {
-      "ticker": "API",
-      "name": "Agora.io",
-      "change": "+35.714285714285715%",
-      "mentions": 19
+      "ticker": "EU",
+      "name": "enCore Energy",
+      "change": "+28.000000000000004%",
+      "mentions": 32
     },
     {
-      "ticker": "ASML",
-      "name": "ASML",
-      "change": "+33.33333333333333%",
-      "mentions": 12
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "change": "+-15.384615384615385%",
+      "mentions": 11
     }
   ],
-  "last_update": "2026-02-07 20:36:45"
+  "last_update": "2026-02-08 07:00:15"
 }
