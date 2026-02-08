@@ -64,6 +64,13 @@
       "updated": "20:49:45"
     },
     {
+      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
+      "title": "Autonomous Sensing & Action",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "20:05:37"
+    },
+    {
       "id": "2026-02-04-originality-moat.md",
       "title": "Originality & Niche Verification (The \"Originality Moat\")",
       "agent": "** FRIDAY | ATHENA",
@@ -97,13 +104,6 @@
       "agent": "SENTINEL",
       "status": "SCHEDULED",
       "updated": "17:00:00"
-    },
-    {
-      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
-      "title": "Autonomous Sensing & Action",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "16:05:37"
     },
     {
       "id": "2026-02-04-kumo-audit.md",
@@ -304,16 +304,16 @@
   ],
   "market_intel": [
     {
+      "ticker": "AGI",
+      "name": "Alamos Gold",
+      "change": "+1200.0%",
+      "mentions": 52
+    },
+    {
       "ticker": "VXUS",
       "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
       "change": "+1100.0%",
       "mentions": 24
-    },
-    {
-      "ticker": "AGI",
-      "name": "Alamos Gold",
-      "change": "+766.6666666666667%",
-      "mentions": 52
     },
     {
       "ticker": "ICE",
@@ -322,5 +322,5 @@
       "mentions": 17
     }
   ],
-  "last_update": "2026-02-08 16:00:36"
+  "last_update": "2026-02-08 16:05:57"
 }
