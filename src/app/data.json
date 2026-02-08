@@ -131,23 +131,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "GLP",
-      "name": "Global Partners LP",
-      "change": "+30.303030303030305%",
-      "mentions": 43
-    },
-    {
       "ticker": "EU",
       "name": "enCore Energy",
-      "change": "+29.166666666666668%",
+      "change": "+34.78260869565217%",
       "mentions": 31
+    },
+    {
+      "ticker": "GLP",
+      "name": "Global Partners LP",
+      "change": "+26.47058823529412%",
+      "mentions": 43
     },
     {
       "ticker": "HIMS",
       "name": "Hims &amp; Hers Health",
-      "change": "+-33.0%",
-      "mentions": 67
+      "change": "+-32.67326732673268%",
+      "mentions": 68
     }
   ],
-  "last_update": "2026-02-08 08:00:07"
+  "last_update": "2026-02-08 08:06:52"
 }
