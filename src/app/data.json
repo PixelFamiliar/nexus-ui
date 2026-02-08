@@ -133,21 +133,21 @@
     {
       "ticker": "VXUS",
       "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
-      "change": "+533.3333333333333%",
+      "change": "+850.0%",
       "mentions": 19
     },
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+485.71428571428567%",
-      "mentions": 41
+      "change": "+528.5714285714286%",
+      "mentions": 44
     },
     {
       "ticker": "ICE",
       "name": "Intercontinental Exchange",
-      "change": "+200.0%",
-      "mentions": 12
+      "change": "+275.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-08 14:00:19"
+  "last_update": "2026-02-08 14:30:35"
 }
