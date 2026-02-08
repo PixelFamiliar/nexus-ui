@@ -131,23 +131,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "ICE",
-      "name": "Intercontinental Exchange",
-      "change": "+200.0%",
-      "mentions": 12
+      "ticker": "VXUS",
+      "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
+      "change": "+250.0%",
+      "mentions": 14
     },
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+133.33333333333331%",
-      "mentions": 21
+      "change": "+211.11111111111111%",
+      "mentions": 28
     },
     {
-      "ticker": "IBKR",
-      "name": "Interactive Brokers",
-      "change": "+120.0%",
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange",
+      "change": "+175.0%",
       "mentions": 11
     }
   ],
-  "last_update": "2026-02-08 10:30:08"
+  "last_update": "2026-02-08 11:00:08"
 }
