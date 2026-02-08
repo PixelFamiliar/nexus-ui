@@ -1,83 +1,6 @@
 {
   "tasks": [
     {
-      "id": "b9fb9624-682f-413d-86bb-77a29badbadd",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:1",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "23:49:08"
-    },
-    {
-      "id": "b135e1b6-14ba-443f-972d-480eb0843308",
-      "title": "Live Run: agent:main:cron:9928f803-f260-4b26-94cc-add874a19d61",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "9928f803-f260-4b26-94cc-add874a19d61",
-      "title": "Update MEMORY.md Heartbeat Task",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "2026-02-04-sponsor-deck.md",
-      "title": "Draft Sponsor Deck",
-      "agent": "** HERMES",
-      "status": "INBOX",
-      "updated": "21:54:11"
-    },
-    {
-      "id": "batch-001-ai-agent-workflows.md",
-      "title": "Content Batch 001 - AI Agent Workflows",
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
-      "status": "IN PROGRESS",
-      "updated": "21:32:51"
-    },
-    {
-      "id": "1a5e8c2c-3f83-48c9-8de8-ddb7778614a7",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "21:03:09"
-    },
-    {
-      "id": "build-setup-kit.md",
-      "title": "Implement \"Setup as a Service\" Kit",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "21:03:05"
-    },
-    {
-      "id": "reaction_3341.json",
-      "title": "reaction_3341.json",
-      "agent": "PIXEL",
-      "status": "INBOX",
-      "updated": "21:02:49"
-    },
-    {
-      "id": "research-babyagi3-tools.md",
-      "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "20:49:45"
-    },
-    {
-      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
-      "title": "Autonomous Sensing & Action",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "20:05:37"
-    },
-    {
-      "id": "2026-02-04-originality-moat.md",
-      "title": "Originality & Niche Verification (The \"Originality Moat\")",
-      "agent": "** FRIDAY | ATHENA",
-      "status": "IN PROGRESS",
-      "updated": "19:28:51"
-    },
-    {
       "id": "2026-02-05-sentinel-scanner.md",
       "title": "Implement sentinel-scanner Skill",
       "agent": "** JARVIS",
@@ -85,32 +8,11 @@
       "updated": "19:16:29"
     },
     {
-      "id": "meme_utility_moltmeme.json",
-      "title": "meme_utility_moltmeme.json",
-      "agent": "PIXEL",
-      "status": "INBOX",
-      "updated": "18:47:03"
-    },
-    {
-      "id": "2026-02-04-unbrowse-polymarket.md",
-      "title": "Implement Unbrowse Sensor for Polymarket",
-      "agent": "** JARVIS",
-      "status": "REVIEW",
-      "updated": "18:39:35"
-    },
-    {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "17:00:00"
-    },
-    {
-      "id": "2026-02-04-kumo-audit.md",
-      "title": "Competitive Audit: Cloudflare Kumo UI",
-      "agent": "** FRIDAY",
-      "status": "INBOX",
-      "updated": "15:05:37"
+      "id": "2026-02-06-scalestream-swarm.md",
+      "title": "Launch ScaleStream Swarm",
+      "agent": "** PIXEL (ORCHESTRATOR)",
+      "status": "IN PROGRESS",
+      "updated": "08:37:33"
     },
     {
       "id": "2026-02-03-agent-discourse-tracker.md",
@@ -120,25 +22,18 @@
       "updated": "13:26:46"
     },
     {
-      "id": "f45bdcfb-1b44-4213-b800-5e78a3a24107",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:25",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "12:11:26"
-    },
-    {
-      "id": "2026-02-07-monetize-the-forge.md",
-      "title": "Monetizing The Forge",
-      "agent": "** GROWTH",
-      "status": "INBOX",
-      "updated": "08:51:55"
-    },
-    {
-      "id": "2026-02-06-scalestream-swarm.md",
-      "title": "Launch ScaleStream Swarm",
-      "agent": "** PIXEL (ORCHESTRATOR)",
+      "id": "batch-001-ai-agent-workflows.md",
+      "title": "Content Batch 001 - AI Agent Workflows",
+      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
       "status": "IN PROGRESS",
-      "updated": "08:37:33"
+      "updated": "21:32:51"
+    },
+    {
+      "id": "2026-02-04-originality-moat.md",
+      "title": "Originality & Niche Verification (The \"Originality Moat\")",
+      "agent": "** FRIDAY | ATHENA",
+      "status": "IN PROGRESS",
+      "updated": "19:28:51"
     },
     {
       "id": "2026-02-08-batch-001-editing.md",
@@ -153,174 +48,86 @@
       "agent": "** FRIDAY | HERMES",
       "status": "REVIEW",
       "updated": "07:47:46"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Scalestream Swarm",
-      "last_worked": "2026-02-08 08:37",
-      "status": "IN PROGRESS",
-      "mtime": 1770561453.0130074
     },
     {
-      "name": "Batch 001 Editing",
-      "last_worked": "2026-02-08 08:36",
+      "id": "2026-02-04-unbrowse-polymarket.md",
+      "title": "Implement Unbrowse Sensor for Polymarket",
+      "agent": "** JARVIS",
       "status": "REVIEW",
-      "mtime": 1770561377.3946466
+      "updated": "18:39:35"
     },
     {
-      "name": "Batch 001 Ai Agent Workflows",
-      "last_worked": "2026-02-07 21:32",
-      "status": "IN PROGRESS",
-      "mtime": 1770521571.4845068
-    },
-    {
-      "name": "Build Setup Kit",
-      "last_worked": "2026-02-07 21:03",
-      "status": "INBOX",
-      "mtime": 1770519785.0994265
-    },
-    {
-      "name": "Research Babyagi3 Tools",
-      "last_worked": "2026-02-07 20:49",
-      "status": "INBOX",
-      "mtime": 1770518985.1234448
-    },
-    {
-      "name": "Substack Clawphone",
-      "last_worked": "2026-02-07 18:37",
+      "id": "2026-02-03-niche-research.md",
+      "title": "Research Profitable Niches for Content",
+      "agent": "** RESEARCHER",
       "status": "DONE",
-      "mtime": 1770511030.0210912
+      "updated": "13:01:02"
     },
     {
-      "name": "Substack Automator",
-      "last_worked": "2026-02-07 18:37",
+      "id": "2026-02-07-substack-clawphone.md",
+      "title": "Substack Deep Dive: ClawPhone",
+      "agent": "** WRITER",
       "status": "DONE",
-      "mtime": 1770511026.7598763
+      "updated": "18:37:10"
     },
     {
-      "name": "Voice Outreach",
-      "last_worked": "2026-02-07 10:32",
+      "id": "2026-02-05-substack-automator.md",
+      "title": "Implement substack-automator Skill",
+      "agent": "** JARVIS | LOKI",
       "status": "DONE",
-      "mtime": 1770481965.5165832
+      "updated": "18:37:06"
     },
     {
-      "name": "Monetize The Forge",
-      "last_worked": "2026-02-07 08:51",
-      "status": "INBOX",
-      "mtime": 1770475915.0027556
-    },
-    {
-      "name": "Sentinel Sandbox",
-      "last_worked": "2026-02-07 08:40",
+      "id": "2026-02-07-sentinel-sandbox.md",
+      "title": "Sentinel Sandbox Implementation",
+      "agent": "** SENTINEL",
       "status": "DONE",
-      "mtime": 1770475248.105718
+      "updated": "08:40:48"
     },
     {
-      "name": "Originality Moat",
-      "last_worked": "2026-02-05 19:28",
-      "status": "IN PROGRESS",
-      "mtime": 1770341331.1735773
-    },
-    {
-      "name": "Unbrowse Polymarket",
-      "last_worked": "2026-02-05 18:39",
-      "status": "REVIEW",
-      "mtime": 1770338375.864991
-    },
-    {
-      "name": "Sponsor Deck",
-      "last_worked": "2026-02-04 21:54",
-      "status": "INBOX",
-      "mtime": 1770263651.027046
-    },
-    {
-      "name": "Sentinel Scanner",
-      "last_worked": "2026-02-04 19:16",
-      "status": "IN PROGRESS",
-      "mtime": 1770254189.334754
-    },
-    {
-      "name": "Kumo Audit",
-      "last_worked": "2026-02-04 15:05",
-      "status": "INBOX",
-      "mtime": 1770239137.106894
-    },
-    {
-      "name": "Agent Discourse Tracker",
-      "last_worked": "2026-02-04 13:26",
-      "status": "IN PROGRESS",
-      "mtime": 1770233206.6753876
-    },
-    {
-      "name": "Agent Infrastructure Research Digital",
-      "last_worked": "2026-02-04 07:47",
-      "status": "REVIEW",
-      "mtime": 1770212866.3082323
-    },
-    {
-      "name": "Niche Research",
-      "last_worked": "2026-02-03 13:01",
+      "id": "2026-02-07-voice-outreach.md",
+      "title": "Voice Outreach Implementation",
+      "agent": "** JARVIS",
       "status": "DONE",
-      "mtime": 1770145262.8080294
+      "updated": "10:32:45"
     }
   ],
   "alpha": [
     {
       "rank": 1,
       "source": "X",
-      "handle": "kidneycryptodoc",
-      "title": "Thanks Alex for all your helpful videos. Your energy is infectious on your channel. Also very easy t...",
-      "time": "2026-02-08 00:38:03"
+      "handle": "Frosh_Crt",
+      "title": "Just watched my @openclaw forget its recent memories and its name like it had a factory reset mid-co...",
+      "time": "2026-02-08 22:58:38"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "itsjustlevine",
-      "title": "My @openclaw friggin uninstalled itself while I was AFK over the weekend \ud83d\udc80\n\nSeems it was doing a sel...",
-      "time": "2026-02-08 00:38:03"
+      "handle": "AviAisenberg",
+      "title": "@geoffreywoo @openclaw @AntiHunter59823 @X The rabbit hole never ends. So much fun....",
+      "time": "2026-02-08 22:58:38"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "patxi_hastoy",
-      "title": "@PeterDiamandis Moltbook + OpenClaw is genuinely a turning point, the first public, real-time glimps...",
-      "time": "2026-02-08 00:38:03"
+      "handle": "thekhoza",
+      "title": "@VraserX Openclaw - \u201cbuy Mac Studio and run clawdbot 24/7 or stay poor\u201d....",
+      "time": "2026-02-08 22:58:38"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "Rohits79",
-      "title": "@MysticEru @unusual_whales Only if you are opening your openclaw to make it happen. Yesterday's rele...",
-      "time": "2026-02-08 00:38:03"
+      "handle": "doni_brasco888",
+      "title": "$70M on https://t.co/jUxCZ0WnnE + Super Bowl ad for autonomous AI agents? Kris Marszalek going nucle...",
+      "time": "2026-02-08 22:58:38"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "drewddahlin",
-      "title": "@jessegenet @openclaw Sounds interesting...",
-      "time": "2026-02-08 00:38:03"
+      "handle": "bradnecyk",
+      "title": "Spent 4\u20135 hours with Gemini trying to get OpenClaw running locally via Ollama.\nClaude Opus 4.6 one-s...",
+      "time": "2026-02-08 22:58:38"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "AGI",
-      "name": "Alamos Gold",
-      "change": "+1200.0%",
-      "mentions": 52
-    },
-    {
-      "ticker": "VXUS",
-      "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
-      "change": "+1100.0%",
-      "mentions": 24
-    },
-    {
-      "ticker": "ICE",
-      "name": "Intercontinental Exchange",
-      "change": "+466.6666666666667%",
-      "mentions": 17
-    }
-  ],
-  "last_update": "2026-02-08 16:05:57"
+  "last_update": "2026-02-08 16:58:39"
 }
