@@ -126,21 +126,21 @@
     {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+77.77777777777779%",
-      "mentions": 48
+      "change": "+62.96296296296296%",
+      "mentions": 44
     },
     {
       "ticker": "EU",
       "name": "enCore Energy",
-      "change": "+28.000000000000004%",
-      "mentions": 32
+      "change": "+29.166666666666668%",
+      "mentions": 31
     },
     {
-      "ticker": "CRWV",
-      "name": "CoreWeave",
-      "change": "+-15.384615384615385%",
-      "mentions": 11
+      "ticker": "HIMS",
+      "name": "Hims &amp; Hers Health",
+      "change": "+-27.368421052631582%",
+      "mentions": 69
     }
   ],
-  "last_update": "2026-02-08 07:00:15"
+  "last_update": "2026-02-08 07:30:04"
 }
