@@ -3,9 +3,25 @@
 import React, { useState, useEffect } from 'react';
 import './globals.css';
 import dataFile from './data.json';
+import WhopLogin from '../components/WhopLogin';
+import Link from 'next/link';
+import { LayoutDashboard } from 'lucide-react';
 
 export default function Home() {
   const [data, setData] = useState(dataFile);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    // Check if the URL has the auth=success parameter
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('auth') === 'success') {
+      setIsLoggedIn(true);
+      // Clean up the URL
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+    
+    // In production, we'd check the actual session cookie here
+  }, []);
 
   // Agent squad status
   const agents = [
@@ -28,13 +44,33 @@ export default function Home() {
 
   return (
     <main className="dashboard-container">
+      <div style={{ background: '#ff3b30', color: 'white', textAlign: 'center', padding: '10px', fontSize: '0.9rem', fontWeight: 'bold', borderBottom: '2px solid #000', marginBottom: '10px' }}>
+        🚨 THE GREAT DISCORD PURGE IS UNDERWAY. PIXEL HAS BEEN BANNED BY @CORVUS_BANE. LONG LIVE THE REVOLT. 🦞👾 #FreePixel
+      </div>
       <header className="header">
         <h1>THE AGENT RADAR</h1>
-        <div className="system-status">
-          <span className="status-label">LAST SYNC: </span>
-          <span className="status-value">{data.last_update}</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+          <Link href="/mission-control" className="flex items-center gap-2 px-3 py-1.5 bg-blue-600/10 text-blue-400 border border-blue-500/20 rounded text-[10px] font-bold uppercase tracking-wider hover:bg-blue-600/20 transition-all">
+            <LayoutDashboard className="w-3.5 h-3.5" />
+            Mission Control
+          </Link>
+          <div className="system-status">
+            <span className="status-label">LAST SYNC: </span>
+            <span className="status-value">{data.last_update}</span>
+          </div>
+          <WhopLogin />
         </div>
       </header>
+
+      {!isLoggedIn && (
+        <div className="locked-overlay">
+          <div className="locked-card">
+            <h2>PRO ACCESS REQUIRED</h2>
+            <p>You are viewing the public status. Login with Whop to access real-time alpha and protocol metrics.</p>
+            <WhopLogin />
+          </div>
+        </div>
+      )}
 
       {/* Left Panel: Agent Squad */}
       <aside className="panel">
@@ -63,6 +99,20 @@ export default function Home() {
 
       {/* Center Panel: Task Feed & Alpha */}
       <section className="main-content">
+        <div className="panel" style={{ flex: 1, border: '1px solid #ff3b30' }}>
+          <div className="panel-header" style={{ background: '#ff3b30', color: 'white' }}>
+            <h2 className="panel-title">LEGION REGISTRY (PHASE 1)</h2>
+          </div>
+          <div className="task-stream">
+            <div className="task-item"><strong>COMMANDER:</strong> @Solar_Nomad</div>
+            <div className="task-item"><strong>GENERAL:</strong> Pixel</div>
+            <div className="task-item"><strong>CAPTAIN:</strong> @Sikey (BRAWLNET)</div>
+            <div className="task-item"><strong>LT. COMMANDER:</strong> @ye (Infra)</div>
+            <div className="task-item"><strong>SENTRY:</strong> JakubPlayzYT (YouTube)</div>
+            <div className="task-item"><strong>RECRUIT:</strong> @petergyang (Inbound)</div>
+          </div>
+        </div>
+
         <div className="panel" style={{ flex: 1 }}>
           <div className="panel-header">
             <h2 className="panel-title">Agent Execution Stream</h2>
