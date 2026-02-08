@@ -12,14 +12,7 @@
       "title": "Launch ScaleStream Swarm",
       "agent": "** PIXEL (ORCHESTRATOR)",
       "status": "IN PROGRESS",
-      "updated": "20:16:28"
-    },
-    {
-      "id": "2026-02-08-batch-001-editing.md",
-      "title": "Stage 4 - Editing/QA (Batch 001)",
-      "agent": "** ATHENA",
-      "status": "IN PROGRESS",
-      "updated": "07:30:13"
+      "updated": "08:37:33"
     },
     {
       "id": "2026-02-03-agent-discourse-tracker.md",
@@ -41,6 +34,13 @@
       "agent": "** FRIDAY | ATHENA",
       "status": "IN PROGRESS",
       "updated": "19:28:51"
+    },
+    {
+      "id": "2026-02-08-batch-001-editing.md",
+      "title": "Stage 4 - Editing/QA (Batch 001)",
+      "agent": "** ATHENA",
+      "status": "REVIEW",
+      "updated": "08:36:17"
     },
     {
       "id": "2026-02-03-agent-infrastructure-research-digital.md",
@@ -131,23 +131,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "EU",
-      "name": "enCore Energy",
-      "change": "+34.78260869565217%",
-      "mentions": 31
-    },
-    {
       "ticker": "GLP",
       "name": "Global Partners LP",
-      "change": "+26.47058823529412%",
-      "mentions": 43
+      "change": "+20.0%",
+      "mentions": 42
     },
     {
-      "ticker": "HIMS",
-      "name": "Hims &amp; Hers Health",
-      "change": "+-32.67326732673268%",
-      "mentions": 68
+      "ticker": "EU",
+      "name": "enCore Energy",
+      "change": "+20.0%",
+      "mentions": 30
+    },
+    {
+      "ticker": "API",
+      "name": "Agora.io",
+      "change": "+-33.33333333333333%",
+      "mentions": 12
     }
   ],
-  "last_update": "2026-02-08 08:06:52"
+  "last_update": "2026-02-08 09:00:13"
 }
