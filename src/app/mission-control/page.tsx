@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import ActivityFeed from '../../components/ActivityFeed';
 import CalendarView from '../../components/CalendarView';
 import AgentFleet from '../../components/AgentFleet';
-import AgentHQ from '../../components/AgentHQ';
+import AgentOfficeSim from '../../components/AgentOfficeSim';
 import GlobalSearch from '../../components/GlobalSearch';
 import WhopLogin from '../../components/WhopLogin';
 import { 
@@ -110,8 +110,8 @@ export default function MissionControl() {
               </div>
 
               {/* Agent HQ (Spatial View) */}
-              <div className="lg:col-span-6 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm">
-                <AgentHQ />
+              <div className="lg:col-span-6 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm shadow-2xl shadow-blue-500/5">
+                <AgentOfficeSim />
               </div>
 
               {/* Activity Feed Container */}
