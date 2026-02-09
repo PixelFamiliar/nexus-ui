@@ -337,21 +337,21 @@
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+1600.0%",
-      "mentions": 68
+      "change": "+1240.0%",
+      "mentions": 67
     },
     {
-      "ticker": "VXUS",
-      "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
-      "change": "+966.6666666666666%",
-      "mentions": 32
+      "ticker": "HBM",
+      "name": "Hudbay Minerals",
+      "change": "+1000.0%",
+      "mentions": 11
     },
     {
-      "ticker": "AM",
-      "name": "Antero Midstream",
-      "change": "+480.0%",
-      "mentions": 29
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "change": "+650.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-09 07:52:55"
+  "last_update": "2026-02-09 08:53:29"
 }
