@@ -341,17 +341,17 @@
       "mentions": 31
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
+      "ticker": "APP",
+      "name": "AppLovin",
       "change": "+2700.0%",
       "mentions": 28
     },
     {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "change": "+2600.0%",
-      "mentions": 27
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "change": "+2700.0%",
+      "mentions": 28
     }
   ],
-  "last_update": "2026-02-09 16:55:40"
+  "last_update": "2026-02-09 17:22:45"
 }
