@@ -343,15 +343,15 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "change": "+2600.0%",
-      "mentions": 27
+      "change": "+2700.0%",
+      "mentions": 28
     },
     {
-      "ticker": "ORCL",
-      "name": "Oracle",
-      "change": "+2400.0%",
-      "mentions": 25
+      "ticker": "OPEN",
+      "name": "Opendoor",
+      "change": "+2600.0%",
+      "mentions": 27
     }
   ],
-  "last_update": "2026-02-09 15:22:41"
+  "last_update": "2026-02-09 15:58:18"
 }
