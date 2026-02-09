@@ -85,6 +85,20 @@
       "updated": "18:39:35"
     },
     {
+      "id": "2026-02-08-substack-refactor.md",
+      "title": "Substack Automator Refactor",
+      "agent": "** JARVIS",
+      "status": "INBOX",
+      "updated": "18:29:18"
+    },
+    {
+      "id": "2026-02-06-scalestream-swarm.md",
+      "title": "Launch ScaleStream Swarm",
+      "agent": "** PIXEL (ORCHESTRATOR)",
+      "status": "IN PROGRESS",
+      "updated": "18:29:09"
+    },
+    {
       "id": "2026-02-04-kumo-audit.md",
       "title": "Competitive Audit: Cloudflare Kumo UI",
       "agent": "** FRIDAY",
@@ -113,13 +127,6 @@
       "updated": "08:51:55"
     },
     {
-      "id": "2026-02-06-scalestream-swarm.md",
-      "title": "Launch ScaleStream Swarm",
-      "agent": "** PIXEL (ORCHESTRATOR)",
-      "status": "IN PROGRESS",
-      "updated": "08:37:33"
-    },
-    {
       "id": "2026-02-08-batch-001-editing.md",
       "title": "Stage 4 - Editing/QA (Batch 001)",
       "agent": "** ATHENA",
@@ -136,10 +143,16 @@
   ],
   "projects": [
     {
+      "name": "Substack Refactor",
+      "last_worked": "2026-02-08 18:29",
+      "status": "INBOX",
+      "mtime": 1770596958.856403
+    },
+    {
       "name": "Scalestream Swarm",
-      "last_worked": "2026-02-08 08:37",
+      "last_worked": "2026-02-08 18:29",
       "status": "IN PROGRESS",
-      "mtime": 1770561453.0130074
+      "mtime": 1770596949.794849
     },
     {
       "name": "Batch 001 Editing",
@@ -297,9 +310,9 @@
     {
       "ticker": "VT",
       "name": "Vanguard Group, Inc. - Vanguard Total World Stock ETF",
-      "change": "+466.6666666666667%",
-      "mentions": 17
+      "change": "+500.0%",
+      "mentions": 18
     }
   ],
-  "last_update": "2026-02-08 18:24:22"
+  "last_update": "2026-02-08 18:40:30"
 }
