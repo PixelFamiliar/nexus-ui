@@ -343,8 +343,8 @@
     {
       "ticker": "AAPL",
       "name": "Apple",
-      "change": "+1500.0%",
-      "mentions": 16
+      "change": "+1900.0%",
+      "mentions": 20
     },
     {
       "ticker": "ORCL",
@@ -353,5 +353,5 @@
       "mentions": 14
     }
   ],
-  "last_update": "2026-02-09 11:22:38"
+  "last_update": "2026-02-09 11:48:08"
 }
