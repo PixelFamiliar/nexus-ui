@@ -343,15 +343,15 @@
     {
       "ticker": "VXUS",
       "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
-      "change": "+1400.0%",
-      "mentions": 30
+      "change": "+933.3333333333334%",
+      "mentions": 31
     },
     {
       "ticker": "VT",
       "name": "Vanguard Group, Inc. - Vanguard Total World Stock ETF",
-      "change": "+666.6666666666667%",
-      "mentions": 23
+      "change": "+700.0%",
+      "mentions": 24
     }
   ],
-  "last_update": "2026-02-08 21:28:19"
+  "last_update": "2026-02-08 21:58:28"
 }
