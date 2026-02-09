@@ -341,17 +341,17 @@
       "mentions": 27
     },
     {
+      "ticker": "HBM",
+      "name": "Hudbay Minerals",
+      "change": "+1300.0%",
+      "mentions": 14
+    },
+    {
       "ticker": "ORCL",
       "name": "Oracle",
       "change": "+1200.0%",
       "mentions": 13
-    },
-    {
-      "ticker": "ON",
-      "name": "ON Semiconductor",
-      "change": "+1200.0%",
-      "mentions": 13
     }
   ],
-  "last_update": "2026-02-09 12:31:18"
+  "last_update": "2026-02-09 12:52:44"
 }
