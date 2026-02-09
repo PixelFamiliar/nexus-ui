@@ -337,8 +337,8 @@
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+950.0%",
-      "mentions": 63
+      "change": "+966.6666666666666%",
+      "mentions": 64
     },
     {
       "ticker": "VXUS",
@@ -353,5 +353,5 @@
       "mentions": 27
     }
   ],
-  "last_update": "2026-02-08 23:52:40"
+  "last_update": "2026-02-09 00:22:56"
 }
