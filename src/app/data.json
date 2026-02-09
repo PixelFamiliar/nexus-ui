@@ -78,6 +78,27 @@
       "updated": "18:47:03"
     },
     {
+      "id": "substack-audit-security.md",
+      "title": "substack-audit-security.md",
+      "agent": "PIXEL",
+      "status": "REVIEW",
+      "updated": "18:45:04"
+    },
+    {
+      "id": "2026-02-08-scalestream-voice-deployment.md",
+      "title": "ScaleStream Voice Outreach Deployment",
+      "agent": "** VOICE | COORDINATOR",
+      "status": "INBOX",
+      "updated": "18:42:02"
+    },
+    {
+      "id": "2026-02-08-substack-staging.md",
+      "title": "Lock Down Substack Staging Workflow",
+      "agent": "** DEVELOPER | WRITER",
+      "status": "INBOX",
+      "updated": "18:41:54"
+    },
+    {
       "id": "2026-02-04-unbrowse-polymarket.md",
       "title": "Implement Unbrowse Sensor for Polymarket",
       "agent": "** JARVIS",
@@ -142,6 +163,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "Substack Audit Security",
+      "last_worked": "2026-02-08 18:45",
+      "status": "REVIEW",
+      "mtime": 1770597904.2239
+    },
+    {
+      "name": "Scalestream Voice Deployment",
+      "last_worked": "2026-02-08 18:42",
+      "status": "INBOX",
+      "mtime": 1770597722.2809148
+    },
+    {
+      "name": "Substack Staging",
+      "last_worked": "2026-02-08 18:41",
+      "status": "INBOX",
+      "mtime": 1770597714.843278
+    },
     {
       "name": "Substack Refactor",
       "last_worked": "2026-02-08 18:29",
@@ -298,21 +337,21 @@
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+1350.0%",
-      "mentions": 58
+      "change": "+1400.0%",
+      "mentions": 60
     },
     {
       "ticker": "VXUS",
       "name": "Vanguard Group, Inc. - Vanguard Total International Stock ETF",
-      "change": "+833.3333333333334%",
-      "mentions": 28
+      "change": "+1350.0%",
+      "mentions": 29
     },
     {
       "ticker": "VT",
       "name": "Vanguard Group, Inc. - Vanguard Total World Stock ETF",
-      "change": "+466.6666666666667%",
-      "mentions": 17
+      "change": "+850.0%",
+      "mentions": 19
     }
   ],
-  "last_update": "2026-02-08 18:41:47"
+  "last_update": "2026-02-08 19:12:10"
 }
