@@ -335,23 +335,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "AGI",
-      "name": "Alamos Gold",
-      "change": "+1240.0%",
-      "mentions": 67
-    },
-    {
-      "ticker": "HBM",
-      "name": "Hudbay Minerals",
-      "change": "+1000.0%",
-      "mentions": 11
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "change": "+1100.0%",
+      "mentions": 12
     },
     {
       "ticker": "NFLX",
       "name": "Netflix",
-      "change": "+650.0%",
-      "mentions": 15
+      "change": "+950.0%",
+      "mentions": 21
+    },
+    {
+      "ticker": "AGI",
+      "name": "Alamos Gold",
+      "change": "+857.1428571428571%",
+      "mentions": 67
     }
   ],
-  "last_update": "2026-02-09 08:53:29"
+  "last_update": "2026-02-09 09:22:51"
 }
