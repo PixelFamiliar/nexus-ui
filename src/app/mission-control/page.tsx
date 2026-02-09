@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import ActivityFeed from '../../components/ActivityFeed';
 import CalendarView from '../../components/CalendarView';
 import AgentFleet from '../../components/AgentFleet';
+import AgentHQ from '../../components/AgentHQ';
 import GlobalSearch from '../../components/GlobalSearch';
 import WhopLogin from '../../components/WhopLogin';
 import { 
@@ -103,19 +104,19 @@ export default function MissionControl() {
             {/* Content Display */}
             <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-10 min-h-0">
               
-              {/* Agent Fleet (Newly Added) */}
+              {/* Agent Fleet (Cards) */}
               <div className="lg:col-span-3 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm">
                 <AgentFleet />
               </div>
 
-              {/* Activity Feed Container */}
-              <div className="lg:col-span-4 h-full flex flex-col min-h-0">
-                <ActivityFeed />
+              {/* Agent HQ (Spatial View) */}
+              <div className="lg:col-span-6 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm">
+                <AgentHQ />
               </div>
 
-              {/* Schedule Engine Container */}
-              <div className="lg:col-span-5 h-full flex flex-col min-h-0">
-                <CalendarView />
+              {/* Activity Feed Container */}
+              <div className="lg:col-span-3 h-full flex flex-col min-h-0">
+                <ActivityFeed />
               </div>
 
             </div>
