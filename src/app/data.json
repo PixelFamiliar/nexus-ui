@@ -335,6 +335,12 @@
   ],
   "market_intel": [
     {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "change": "+2900.0%",
+      "mentions": 30
+    },
+    {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
       "change": "+2600.0%",
@@ -345,13 +351,7 @@
       "name": "Oracle",
       "change": "+2400.0%",
       "mentions": 25
-    },
-    {
-      "ticker": "OPEN",
-      "name": "Opendoor",
-      "change": "+1800.0%",
-      "mentions": 19
     }
   ],
-  "last_update": "2026-02-09 14:40:29"
+  "last_update": "2026-02-09 15:02:43"
 }
