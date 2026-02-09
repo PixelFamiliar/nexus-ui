@@ -337,7 +337,7 @@
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+1160.0%",
+      "change": "+950.0%",
       "mentions": 63
     },
     {
@@ -349,9 +349,9 @@
     {
       "ticker": "VT",
       "name": "Vanguard Group, Inc. - Vanguard Total World Stock ETF",
-      "change": "+700.0%",
-      "mentions": 24
+      "change": "+733.3333333333333%",
+      "mentions": 25
     }
   ],
-  "last_update": "2026-02-08 22:22:37"
+  "last_update": "2026-02-08 22:55:25"
 }
