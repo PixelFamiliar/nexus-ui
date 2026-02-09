@@ -337,7 +337,7 @@
     {
       "ticker": "AGI",
       "name": "Alamos Gold",
-      "change": "+1000.0%",
+      "change": "+1220.0%",
       "mentions": 66
     },
     {
@@ -349,9 +349,9 @@
     {
       "ticker": "ICE",
       "name": "Intercontinental Exchange",
-      "change": "+680.0%",
+      "change": "+550.0%",
       "mentions": 39
     }
   ],
-  "last_update": "2026-02-09 05:01:52"
+  "last_update": "2026-02-09 05:06:22"
 }
