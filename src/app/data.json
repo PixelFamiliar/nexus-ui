@@ -337,8 +337,8 @@
     {
       "ticker": "AAPL",
       "name": "Apple",
-      "change": "+2900.0%",
-      "mentions": 30
+      "change": "+3000.0%",
+      "mentions": 31
     },
     {
       "ticker": "LUNR",
@@ -353,5 +353,5 @@
       "mentions": 25
     }
   ],
-  "last_update": "2026-02-09 15:02:43"
+  "last_update": "2026-02-09 15:22:41"
 }
