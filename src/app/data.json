@@ -337,21 +337,21 @@
     {
       "ticker": "LUNR",
       "name": "Intuitive Machines",
-      "change": "+2100.0%",
-      "mentions": 22
+      "change": "+2600.0%",
+      "mentions": 27
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "change": "+1300.0%",
+      "mentions": 14
     },
     {
       "ticker": "HBM",
       "name": "Hudbay Minerals",
       "change": "+1000.0%",
       "mentions": 11
-    },
-    {
-      "ticker": "AM",
-      "name": "Antero Midstream",
-      "change": "+850.0%",
-      "mentions": 57
     }
   ],
-  "last_update": "2026-02-09 09:52:52"
+  "last_update": "2026-02-09 10:22:54"
 }
