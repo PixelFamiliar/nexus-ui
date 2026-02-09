@@ -337,6 +337,12 @@
     {
       "ticker": "AAPL",
       "name": "Apple",
+      "change": "+3200.0%",
+      "mentions": 33
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor",
       "change": "+3000.0%",
       "mentions": 31
     },
@@ -345,13 +351,7 @@
       "name": "Intuitive Machines",
       "change": "+2700.0%",
       "mentions": 28
-    },
-    {
-      "ticker": "OPEN",
-      "name": "Opendoor",
-      "change": "+2600.0%",
-      "mentions": 27
     }
   ],
-  "last_update": "2026-02-09 15:59:06"
+  "last_update": "2026-02-09 16:22:48"
 }
