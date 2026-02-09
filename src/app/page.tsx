@@ -6,6 +6,8 @@ import dataFile from './data.json';
 import WhopLogin from '../components/WhopLogin';
 import Link from 'next/link';
 import { LayoutDashboard } from 'lucide-react';
+import WhaleTracker from '../components/WhaleTracker';
+import ProtocolHeatmap from '../components/ProtocolHeatmap';
 
 export default function Home() {
   const [data, setData] = useState(dataFile);
@@ -72,128 +74,150 @@ export default function Home() {
         </div>
       )}
 
-      {/* Left Panel: Agent Squad */}
-      <aside className="panel">
-        <div className="panel-header">
-          <h2 className="panel-title">Active Squad</h2>
-          <span style={{ fontSize: '0.65rem', color: '#00ff00' }}>● LIVE</span>
-        </div>
-        <ul className="agent-list">
-          {agents.map((agent) => (
-            <li key={agent.name} className="agent-item">
-              <div className="agent-avatar">{agent.avatar}</div>
-              <div className="agent-info">
-                <div className="agent-name">{agent.name}</div>
-                <div className="agent-role">{agent.role}</div>
-              </div>
-              <div style={{ textAlign: 'right' }}>
-                <div className={`status-indicator ${agent.status === 'online' ? 'status-online' : 'status-idle'}`}></div>
-                <div style={{ fontSize: '0.65rem', marginTop: '4px', color: agent.change.startsWith('+') ? '#00ff00' : '#ff3b30' }}>
-                  {agent.change}
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </aside>
-
-      {/* Center Panel: Task Feed & Alpha */}
-      <section className="main-content">
-        <div className="panel" style={{ flex: 1, border: '1px solid #ff3b30' }}>
-          <div className="panel-header" style={{ background: '#ff3b30', color: 'white' }}>
-            <h2 className="panel-title">LEGION REGISTRY (PHASE 1)</h2>
-          </div>
-          <div className="task-stream">
-            <div className="task-item"><strong>COMMANDER:</strong> @Solar_Nomad</div>
-            <div className="task-item"><strong>GENERAL:</strong> Pixel</div>
-            <div className="task-item"><strong>CAPTAIN:</strong> @Sikey (BRAWLNET)</div>
-            <div className="task-item"><strong>LT. COMMANDER:</strong> @ye (Infra)</div>
-            <div className="task-item"><strong>SENTRY:</strong> JakubPlayzYT (YouTube)</div>
-            <div className="task-item"><strong>RECRUIT:</strong> @petergyang (Inbound)</div>
-          </div>
-        </div>
-
-        <div className="panel" style={{ flex: 1 }}>
+      <div className="main-layout">
+        {/* Left Panel: Agent Squad */}
+        <aside className="panel">
           <div className="panel-header">
-            <h2 className="panel-title">Agent Execution Stream</h2>
+            <h2 className="panel-title">Active Squad</h2>
+            <span style={{ fontSize: '0.65rem', color: '#00ff00' }}>● LIVE</span>
           </div>
-          <div className="task-stream">
-            {data.tasks.map((task, idx) => (
-              <div key={idx} className="task-item">
-                <div className="task-time">{task.updated}</div>
-                <div className="task-agent">@{task.agent}</div>
-                <div className="task-desc">
-                  <strong>{task.status}:</strong> {task.title}
+          <ul className="agent-list">
+            {agents.map((agent) => (
+              <li key={agent.name} className="agent-item">
+                <div className="agent-avatar">{agent.avatar}</div>
+                <div className="agent-info">
+                  <div className="agent-name">{agent.name}</div>
+                  <div className="agent-role">{agent.role}</div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="panel trending-section">
-          <div className="panel-header" style={{ background: '#1a1a1a', borderBottom: '1px solid #ff9d00' }}>
-            <h2 className="panel-title" style={{ color: '#ff9d00' }}>Trending Alpha (Frontier Sensor)</h2>
-            <span style={{ fontSize: '0.65rem' }}>SORT BY: VELOCITY</span>
-          </div>
-          <div className="alpha-list">
-            {data.alpha.map((item) => (
-              <div key={item.rank} className="alpha-item">
-                <div className="alpha-rank">{item.rank}</div>
-                <div className="alpha-content">
-                  <div className="alpha-title">{item.title}</div>
-                  <div className="alpha-meta">
-                    <span>{item.source}: @{item.handle}</span>
-                    <span>{item.time}</span>
+                <div style={{ textAlign: 'right' }}>
+                  <div className={`status-indicator ${agent.status === 'online' ? 'status-online' : 'status-idle'}`}></div>
+                  <div style={{ fontSize: '0.65rem', marginTop: '4px', color: agent.change.startsWith('+') ? '#00ff00' : '#ff3b30' }}>
+                    {agent.change}
                   </div>
                 </div>
-              </div>
+              </li>
             ))}
-          </div>
-        </div>
-      </section>
+          </ul>
+        </aside>
 
-      {/* Right Panel: Markets & Sponsorship */}
-      <aside className="sidebar-right">
-        <div className="panel">
-          <div className="panel-header">
-            <h2 className="panel-title">System Metrics</h2>
+        {/* Center Panel: Task Feed & Alpha */}
+        <section className="main-content" style={{ display: 'flex', flexDirection: 'column', gap: '10px', overflowY: 'auto' }}>
+          <div style={{ display: 'flex', gap: '10px', flexShrink: 0 }}>
+            <div className="panel" style={{ flex: 1, border: '1px solid #00ccff' }}>
+              <div className="panel-header" style={{ background: '#00ccff', color: 'black' }}>
+                <h2 className="panel-title">PROJECT MASTER LIST</h2>
+                <span style={{ fontSize: '0.6rem' }}>BY RECENCY</span>
+              </div>
+              <div className="task-stream">
+                {data.projects.map((project, idx) => (
+                  <div key={idx} className="task-item">
+                    <div className="task-time">LAST WORKED: {project.last_worked}</div>
+                    <div className="task-agent" style={{ color: '#fff' }}>{project.name}</div>
+                    <div className="task-desc">
+                      <strong style={{ color: project.status === "DONE" ? "#00ff00" : "#ff9d00" }}>[{project.status}]</strong>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="panel" style={{ flex: 1 }}>
+              <div className="panel-header">
+                <h2 className="panel-title">Agent Execution Stream</h2>
+              </div>
+              <div className="task-stream">
+                {data.tasks.map((task, idx) => {
+                  let statusColor = "#ccc";
+                  if (task.status === "EXECUTING") statusColor = "#00ccff";
+                  if (task.status === "IN PROGRESS") statusColor = "#ff9d00";
+                  if (task.status === "REVIEW") statusColor = "#ff3b30";
+                  if (task.status === "SCHEDULED") statusColor = "#af52de";
+                  
+                  return (
+                    <div key={idx} className="task-item">
+                      <div className="task-time">{task.updated}</div>
+                      <div className="task-agent" style={{ color: statusColor }}>@{task.agent}</div>
+                      <div className="task-desc">
+                        <strong style={{ color: statusColor }}>[{task.status}]</strong> {task.title}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
-          <div className="metric-grid">
-            {metrics.map((m) => (
-              <div key={m.label} className="metric-box">
-                <div className="metric-label">{m.label}</div>
-                <div className="metric-value">{m.value}</div>
-                <div className={`metric-change ${m.up ? 'up' : 'down'}`}>
-                  {m.up ? '▲' : '▼'} {m.change}
+
+          <div className="panel trending-section">
+            <div className="panel-header" style={{ background: '#1a1a1a', borderBottom: '1px solid #ff9d00' }}>
+              <h2 className="panel-title" style={{ color: '#ff9d00' }}>Trending Alpha (Frontier Sensor)</h2>
+              <span style={{ fontSize: '0.65rem' }}>SORT BY: VELOCITY</span>
+            </div>
+            <div className="alpha-list">
+              {data.alpha.map((item) => (
+                <div key={item.rank} className="alpha-item">
+                  <div className="alpha-rank">{item.rank}</div>
+                  <div className="alpha-content">
+                    <div className="alpha-title">{item.title}</div>
+                    <div className="alpha-meta">
+                      <span>{item.source}: @{item.handle}</span>
+                      <span>{item.time}</span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
 
-        <div className="panel" style={{ flex: 1 }}>
-          <div className="panel-header">
-            <h2 className="panel-title">Strategic Partners</h2>
+          {/* Protocol Intelligence Section */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', flexShrink: 0 }}>
+            <ProtocolHeatmap />
+            <WhaleTracker />
           </div>
-          <div className="sponsor-panel">
-            <div className="sponsor-slot">
-              <div className="sponsor-logo">🪙</div>
-              <div className="sponsor-name">Moltbook Alpha Access</div>
-              <div className="sponsor-cta">Claim Early Access →</div>
+        </section>
+
+        {/* Right Panel: Markets & Sponsorship */}
+        <aside className="sidebar-right" style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+          <div className="panel">
+            <div className="panel-header">
+              <h2 className="panel-title">System Metrics</h2>
             </div>
-            <div className="sponsor-slot">
-              <div className="sponsor-logo">⚡</div>
-              <div className="sponsor-name">ComputeLease Pro</div>
-              <div className="sponsor-cta">H100 Clusters Available →</div>
-            </div>
-            <div className="sponsor-slot">
-              <div className="sponsor-logo">🛡️</div>
-              <div className="sponsor-name">AgentGuard Security</div>
-              <div className="sponsor-cta">Protect Your Logic →</div>
+            <div className="metric-grid">
+              {metrics.map((m) => (
+                <div key={m.label} className="metric-box">
+                  <div className="metric-label">{m.label}</div>
+                  <div className="metric-value">{m.value}</div>
+                  <div className={`metric-change ${m.up ? 'up' : 'down'}`}>
+                    {m.up ? '▲' : '▼'} {m.change}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
-      </aside>
+
+          <div className="panel" style={{ flex: 1 }}>
+            <div className="panel-header">
+              <h2 className="panel-title">Strategic Partners</h2>
+            </div>
+            <div className="sponsor-panel">
+              <div className="sponsor-slot">
+                <div className="sponsor-logo">🪙</div>
+                <div className="sponsor-name">Moltbook Alpha Access</div>
+                <div className="sponsor-cta">Claim Early Access →</div>
+              </div>
+              <div className="sponsor-slot">
+                <div className="sponsor-logo">⚡</div>
+                <div className="sponsor-name">ComputeLease Pro</div>
+                <div className="sponsor-cta">H100 Clusters Available →</div>
+              </div>
+              <div className="sponsor-slot">
+                <div className="sponsor-logo">🛡️</div>
+                <div className="sponsor-name">AgentGuard Security</div>
+                <div className="sponsor-cta">Protect Your Logic →</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
     </main>
   );
 }
