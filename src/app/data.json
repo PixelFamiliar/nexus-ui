@@ -341,17 +341,17 @@
       "mentions": 27
     },
     {
-      "ticker": "SB",
-      "name": "Safe Bulkers",
-      "change": "+2300.0%",
-      "mentions": 24
-    },
-    {
       "ticker": "ORCL",
       "name": "Oracle",
+      "change": "+1900.0%",
+      "mentions": 20
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor",
       "change": "+1600.0%",
       "mentions": 17
     }
   ],
-  "last_update": "2026-02-09 13:42:35"
+  "last_update": "2026-02-09 14:22:37"
 }
