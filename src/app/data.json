@@ -341,17 +341,17 @@
       "mentions": 27
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "change": "+1900.0%",
-      "mentions": 20
-    },
-    {
       "ticker": "ORCL",
       "name": "Oracle",
-      "change": "+1300.0%",
-      "mentions": 14
+      "change": "+1200.0%",
+      "mentions": 13
+    },
+    {
+      "ticker": "HBM",
+      "name": "Hudbay Minerals",
+      "change": "+1200.0%",
+      "mentions": 13
     }
   ],
-  "last_update": "2026-02-09 11:58:43"
+  "last_update": "2026-02-09 12:22:42"
 }
