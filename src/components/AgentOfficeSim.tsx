@@ -42,6 +42,7 @@ interface Agent {
   logs: string[];
   facing: 'left' | 'right';
   currentWorkstation?: string;
+  avatar: string;
 }
 
 const workstations: Workstation[] = [
@@ -62,12 +63,12 @@ const rooms = [
 ];
 
 const initialAgents: Agent[] = [
-  { id: '1', name: 'Pixel', type: 'Supervisor', role: 'Coordinator', x: 50, y: 45, targetX: 50, targetY: 45, status: 'active', lastAction: 'Syncing Swarm', facing: 'right', logs: ['[CORE] System check OK'] },
-  { id: '2', name: 'Jarvis', type: 'Execution', role: 'Developer', x: 20, y: 25, targetX: 20, targetY: 25, status: 'busy', lastAction: 'Refining UI', facing: 'left', logs: ['[BUILD] nexus-ui sync complete'] },
-  { id: '3', name: 'Loki', type: 'Content', role: 'Writer', x: 75, y: 25, targetX: 75, targetY: 25, status: 'busy', lastAction: 'Drafting X thread', facing: 'right', logs: ['[DRAFT] Sovereignty memo'] },
-  { id: '4', name: 'Friday', type: 'Intelligence', role: 'Researcher', x: 20, y: 70, targetX: 20, targetY: 70, status: 'active', lastAction: 'Trend sensing', facing: 'left', logs: ['[INTEL] Signal detected'] },
-  { id: '5', name: 'Astra', type: 'Strategic', role: 'Strategist', x: 80, y: 75, targetX: 80, targetY: 75, status: 'idle', lastAction: 'Drinking Coffee', facing: 'right', logs: ['[IDLE] Recharging'] },
-  { id: '6', name: 'Vera', type: 'Security', role: 'Compliance', x: 50, y: 15, targetX: 50, targetY: 15, status: 'active', lastAction: 'Scanning Leaks', facing: 'left', logs: ['[SHIELD] Audit passed'] },
+  { id: '1', name: 'Pixel', type: 'Supervisor', role: 'Coordinator', x: 50, y: 45, targetX: 50, targetY: 45, status: 'active', lastAction: 'Syncing Swarm', facing: 'right', logs: ['[CORE] System check OK'], avatar: '/avatars/pixel_cute.png' },
+  { id: '2', name: 'Jarvis', type: 'Execution', role: 'Developer', x: 20, y: 25, targetX: 20, targetY: 25, status: 'busy', lastAction: 'Refining UI', facing: 'left', logs: ['[BUILD] nexus-ui sync complete'], avatar: '/avatars/jarvis.png' },
+  { id: '3', name: 'Loki', type: 'Content', role: 'Writer', x: 75, y: 25, targetX: 75, targetY: 25, status: 'busy', lastAction: 'Drafting X thread', facing: 'right', logs: ['[DRAFT] Sovereignty memo'], avatar: '/avatars/loki.png' },
+  { id: '4', name: 'Friday', type: 'Intelligence', role: 'Researcher', x: 20, y: 70, targetX: 20, targetY: 70, status: 'active', lastAction: 'Trend sensing', facing: 'left', logs: ['[INTEL] Signal detected'], avatar: '/avatars/friday.png' },
+  { id: '5', name: 'Astra', type: 'Strategic', role: 'Strategist', x: 80, y: 75, targetX: 80, targetY: 75, status: 'idle', lastAction: 'Drinking Coffee', facing: 'right', logs: ['[IDLE] Recharging'], avatar: '/avatars/astra.png' },
+  { id: '6', name: 'Vera', type: 'Security', role: 'Compliance', x: 50, y: 15, targetX: 50, targetY: 15, status: 'active', lastAction: 'Scanning Leaks', facing: 'left', logs: ['[SHIELD] Audit passed'], avatar: '/avatars/vera.png' },
 ];
 
 export default function AgentOfficeSim() {
@@ -214,8 +215,8 @@ export default function AgentOfficeSim() {
           <div className="absolute right-8 top-8 bottom-8 w-80 glass-panel rounded-[2.5rem] overflow-hidden border border-blue-500/20 shadow-2xl animate-in slide-in-from-right-10 duration-500 flex flex-col z-40">
             <div className="p-8 border-b border-white/5 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-2xl bg-blue-600/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
-                  <Bot className="w-6 h-6 shadow-[0_0_15px_rgba(59,130,246,0.5)]" />
+                <div className="w-12 h-12 rounded-2xl bg-zinc-900 border border-white/10 overflow-hidden">
+                  <img src={selectedAgent.avatar} alt={selectedAgent.name} className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h3 className="text-base font-black text-white">{selectedAgent.name}</h3>
@@ -337,12 +338,24 @@ function AgentSprite({ agent, isSelected, onClick }: { agent: Agent, isSelected:
         }`} />
 
         {/* Character Visual */}
-        <div className={`w-10 h-10 rounded-[1.25rem] flex items-center justify-center transition-all duration-300 ${
+        <div className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 overflow-hidden ${
           isSelected 
-            ? 'bg-blue-600 text-white shadow-[0_0_20px_rgba(59,130,246,1)]' 
-            : agent.status === 'busy' ? 'bg-zinc-950 text-white ring-2 ring-white/10' : 'bg-zinc-900/60 text-zinc-500 backdrop-blur-md'
-        } border border-white/5`}>
-            {typeIcons[agent.type]}
+            ? 'shadow-[0_0_20px_rgba(59,130,246,1)] scale-110' 
+            : 'ring-2 ring-white/10 shadow-lg'
+        } bg-zinc-900 border border-white/5`}>
+            <img 
+              src={agent.avatar} 
+              alt={agent.name}
+              className={`w-full h-full object-cover transition-transform duration-500 ${agent.status === 'busy' ? 'scale-110 grayscale-[0.5]' : ''}`}
+              onError={(e) => {
+                // Fallback to icon if image fails
+                (e.target as any).style.display = 'none';
+                (e.target as any).nextSibling.style.display = 'flex';
+              }}
+            />
+            <div className="hidden w-full h-full items-center justify-center bg-zinc-800 text-zinc-400">
+                {typeIcons[agent.type]}
+            </div>
             
             {/* Status light */}
             <div className={`absolute top-0 right-0 w-3 h-3 rounded-full border-2 border-[#050505] ${
