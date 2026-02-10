@@ -394,8 +394,8 @@
     {
       "ticker": "OPEN",
       "name": "Opendoor",
-      "change": "+3200.0%",
-      "mentions": 33
+      "change": "+3100.0%",
+      "mentions": 32
     },
     {
       "ticker": "SPOT",
@@ -410,5 +410,5 @@
       "mentions": 18
     }
   ],
-  "last_update": "2026-02-10 02:23:19"
+  "last_update": "2026-02-10 03:00:46"
 }
