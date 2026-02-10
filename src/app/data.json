@@ -392,23 +392,23 @@
   ],
   "market_intel": [
     {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "change": "+2100.0%",
+      "mentions": 22
+    },
+    {
       "ticker": "DDOG",
       "name": "Datadog",
-      "change": "+2200.0%",
-      "mentions": 23
+      "change": "+2100.0%",
+      "mentions": 22
     },
     {
       "ticker": "XLE",
       "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
       "change": "+2100.0%",
       "mentions": 22
-    },
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
-      "change": "+1900.0%",
-      "mentions": 20
     }
   ],
-  "last_update": "2026-02-10 12:41:30"
+  "last_update": "2026-02-10 13:00:16"
 }
