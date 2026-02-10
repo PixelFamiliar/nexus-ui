@@ -398,17 +398,17 @@
       "mentions": 33
     },
     {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "change": "+3000.0%",
-      "mentions": 31
+      "ticker": "SPOT",
+      "name": "Spotify",
+      "change": "+2400.0%",
+      "mentions": 25
     },
     {
-      "ticker": "ONDS",
-      "name": "Ondas Holdings",
-      "change": "+2700.0%",
-      "mentions": 28
+      "ticker": "XLE",
+      "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
+      "change": "+1700.0%",
+      "mentions": 18
     }
   ],
-  "last_update": "2026-02-10 01:23:18"
+  "last_update": "2026-02-10 01:53:08"
 }
