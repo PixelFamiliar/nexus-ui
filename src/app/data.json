@@ -387,21 +387,21 @@
     {
       "ticker": "OPEN",
       "name": "Opendoor",
-      "change": "+3100.0%",
-      "mentions": 32
+      "change": "+3200.0%",
+      "mentions": 33
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "change": "+2900.0%",
+      "mentions": 30
     },
     {
       "ticker": "ORCL",
       "name": "Oracle",
       "change": "+2800.0%",
       "mentions": 29
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin",
-      "change": "+2800.0%",
-      "mentions": 29
     }
   ],
-  "last_update": "2026-02-09 20:26:12"
+  "last_update": "2026-02-09 20:35:16"
 }
