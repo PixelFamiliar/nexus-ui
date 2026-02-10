@@ -400,15 +400,15 @@
     {
       "ticker": "DDOG",
       "name": "Datadog",
-      "change": "+2200.0%",
-      "mentions": 23
+      "change": "+2300.0%",
+      "mentions": 24
     },
     {
-      "ticker": "CC",
-      "name": "Chemours",
+      "ticker": "FISV",
+      "name": "Fiserv",
       "change": "+2100.0%",
       "mentions": 22
     }
   ],
-  "last_update": "2026-02-10 09:02:20"
+  "last_update": "2026-02-10 09:22:35"
 }
