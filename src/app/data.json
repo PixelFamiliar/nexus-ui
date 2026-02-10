@@ -394,8 +394,8 @@
     {
       "ticker": "SCHW",
       "name": "Charles Schwab",
-      "change": "+2200.0%",
-      "mentions": 23
+      "change": "+2300.0%",
+      "mentions": 24
     },
     {
       "ticker": "XLE",
@@ -410,5 +410,5 @@
       "mentions": 16
     }
   ],
-  "last_update": "2026-02-10 14:01:18"
+  "last_update": "2026-02-10 14:22:39"
 }
