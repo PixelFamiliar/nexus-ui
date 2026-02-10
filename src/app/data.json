@@ -394,8 +394,8 @@
     {
       "ticker": "QNCX",
       "name": "Quince Therapeutics",
-      "change": "+7000.0%",
-      "mentions": 71
+      "change": "+7800.0%",
+      "mentions": 79
     },
     {
       "ticker": "SCHW",
@@ -410,5 +410,5 @@
       "mentions": 15
     }
   ],
-  "last_update": "2026-02-10 17:20:58"
+  "last_update": "2026-02-10 17:21:46"
 }
