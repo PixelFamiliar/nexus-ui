@@ -352,7 +352,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Tue Feb 10 11:15:02 CST 2026"
+      "time": "Tue Feb 10 12:00:24 CST 2026"
     },
     {
       "rank": 1,
@@ -394,8 +394,8 @@
     {
       "ticker": "DDOG",
       "name": "Datadog",
-      "change": "+2300.0%",
-      "mentions": 24
+      "change": "+2200.0%",
+      "mentions": 23
     },
     {
       "ticker": "XLE",
@@ -410,5 +410,5 @@
       "mentions": 17
     }
   ],
-  "last_update": "2026-02-10 12:00:23"
+  "last_update": "2026-02-10 12:02:31"
 }
