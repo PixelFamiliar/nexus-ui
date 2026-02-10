@@ -359,14 +359,14 @@
     {
       "ticker": "OPEN",
       "name": "Opendoor",
-      "change": "+3000.0%",
-      "mentions": 31
+      "change": "+3100.0%",
+      "mentions": 32
     },
     {
       "ticker": "APP",
       "name": "AppLovin",
-      "change": "+2700.0%",
-      "mentions": 28
+      "change": "+2800.0%",
+      "mentions": 29
     },
     {
       "ticker": "LUNR",
@@ -375,5 +375,5 @@
       "mentions": 28
     }
   ],
-  "last_update": "2026-02-09 18:45:10"
+  "last_update": "2026-02-09 18:57:58"
 }
