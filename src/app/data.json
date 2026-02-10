@@ -392,12 +392,6 @@
   ],
   "market_intel": [
     {
-      "ticker": "SPOT",
-      "name": "Spotify",
-      "change": "+3400.0%",
-      "mentions": 35
-    },
-    {
       "ticker": "DDOG",
       "name": "Datadog",
       "change": "+2300.0%",
@@ -408,7 +402,13 @@
       "name": "Fiserv",
       "change": "+2100.0%",
       "mentions": 22
+    },
+    {
+      "ticker": "XLE",
+      "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
+      "change": "+2000.0%",
+      "mentions": 21
     }
   ],
-  "last_update": "2026-02-10 10:01:01"
+  "last_update": "2026-02-10 10:23:07"
 }
