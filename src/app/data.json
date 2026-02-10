@@ -398,17 +398,17 @@
       "mentions": 25
     },
     {
-      "ticker": "XLE",
-      "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
-      "change": "+1500.0%",
-      "mentions": 16
-    },
-    {
       "ticker": "RIVN",
       "name": "Rivian",
       "change": "+1500.0%",
       "mentions": 16
+    },
+    {
+      "ticker": "FIG",
+      "name": "Figma",
+      "change": "+1500.0%",
+      "mentions": 16
     }
   ],
-  "last_update": "2026-02-10 15:02:14"
+  "last_update": "2026-02-10 15:06:25"
 }
