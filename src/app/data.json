@@ -167,133 +167,155 @@
       "name": "Substack Audit Security",
       "last_worked": "2026-02-08 18:45",
       "status": "REVIEW",
-      "mtime": 1770597904.2239
+      "mtime": 1770597904.2239,
+      "agent": "PIXEL"
     },
     {
       "name": "Scalestream Voice Deployment",
       "last_worked": "2026-02-08 18:42",
       "status": "INBOX",
-      "mtime": 1770597722.2809148
+      "mtime": 1770597722.2809148,
+      "agent": "** VOICE | COORDINATOR"
     },
     {
       "name": "Substack Staging",
       "last_worked": "2026-02-08 18:41",
       "status": "INBOX",
-      "mtime": 1770597714.843278
+      "mtime": 1770597714.843278,
+      "agent": "** DEVELOPER | WRITER"
     },
     {
       "name": "Substack Refactor",
       "last_worked": "2026-02-08 18:29",
       "status": "INBOX",
-      "mtime": 1770596958.856403
+      "mtime": 1770596958.856403,
+      "agent": "** JARVIS"
     },
     {
       "name": "Scalestream Swarm",
       "last_worked": "2026-02-08 18:29",
       "status": "IN PROGRESS",
-      "mtime": 1770596949.794849
+      "mtime": 1770596949.794849,
+      "agent": "** PIXEL (ORCHESTRATOR)"
     },
     {
       "name": "Batch 001 Editing",
       "last_worked": "2026-02-08 08:36",
       "status": "REVIEW",
-      "mtime": 1770561377.3946466
+      "mtime": 1770561377.3946466,
+      "agent": "** ATHENA"
     },
     {
       "name": "Batch 001 Ai Agent Workflows",
       "last_worked": "2026-02-07 21:32",
       "status": "IN PROGRESS",
-      "mtime": 1770521571.4845068
+      "mtime": 1770521571.4845068,
+      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)"
     },
     {
       "name": "Build Setup Kit",
       "last_worked": "2026-02-07 21:03",
       "status": "INBOX",
-      "mtime": 1770519785.0994265
+      "mtime": 1770519785.0994265,
+      "agent": "** DEVELOPER"
     },
     {
       "name": "Research Babyagi3 Tools",
       "last_worked": "2026-02-07 20:49",
       "status": "INBOX",
-      "mtime": 1770518985.1234448
+      "mtime": 1770518985.1234448,
+      "agent": "** DEVELOPER"
     },
     {
       "name": "Substack Clawphone",
       "last_worked": "2026-02-07 18:37",
       "status": "DONE",
-      "mtime": 1770511030.0210912
+      "mtime": 1770511030.0210912,
+      "agent": "** WRITER"
     },
     {
       "name": "Substack Automator",
       "last_worked": "2026-02-07 18:37",
       "status": "DONE",
-      "mtime": 1770511026.7598763
+      "mtime": 1770511026.7598763,
+      "agent": "** JARVIS | LOKI"
     },
     {
       "name": "Voice Outreach",
       "last_worked": "2026-02-07 10:32",
       "status": "DONE",
-      "mtime": 1770481965.5165832
+      "mtime": 1770481965.5165832,
+      "agent": "** JARVIS"
     },
     {
       "name": "Monetize The Forge",
       "last_worked": "2026-02-07 08:51",
       "status": "INBOX",
-      "mtime": 1770475915.0027556
+      "mtime": 1770475915.0027556,
+      "agent": "** GROWTH"
     },
     {
       "name": "Sentinel Sandbox",
       "last_worked": "2026-02-07 08:40",
       "status": "DONE",
-      "mtime": 1770475248.105718
+      "mtime": 1770475248.105718,
+      "agent": "** SENTINEL"
     },
     {
       "name": "Originality Moat",
       "last_worked": "2026-02-05 19:28",
       "status": "IN PROGRESS",
-      "mtime": 1770341331.1735773
+      "mtime": 1770341331.1735773,
+      "agent": "** FRIDAY | ATHENA"
     },
     {
       "name": "Unbrowse Polymarket",
       "last_worked": "2026-02-05 18:39",
       "status": "REVIEW",
-      "mtime": 1770338375.864991
+      "mtime": 1770338375.864991,
+      "agent": "** JARVIS"
     },
     {
       "name": "Sponsor Deck",
       "last_worked": "2026-02-04 21:54",
       "status": "INBOX",
-      "mtime": 1770263651.027046
+      "mtime": 1770263651.027046,
+      "agent": "** HERMES"
     },
     {
       "name": "Sentinel Scanner",
       "last_worked": "2026-02-04 19:16",
       "status": "IN PROGRESS",
-      "mtime": 1770254189.334754
+      "mtime": 1770254189.334754,
+      "agent": "** JARVIS"
     },
     {
       "name": "Kumo Audit",
       "last_worked": "2026-02-04 15:05",
       "status": "INBOX",
-      "mtime": 1770239137.106894
+      "mtime": 1770239137.106894,
+      "agent": "** FRIDAY"
     },
     {
       "name": "Agent Discourse Tracker",
       "last_worked": "2026-02-04 13:26",
       "status": "IN PROGRESS",
-      "mtime": 1770233206.6753876
+      "mtime": 1770233206.6753876,
+      "agent": "** JARVIS"
     },
     {
       "name": "Agent Infrastructure Research Digital",
       "last_worked": "2026-02-04 07:47",
       "status": "REVIEW",
-      "mtime": 1770212866.3082323
+      "mtime": 1770212866.3082323,
+      "agent": "** FRIDAY | HERMES"
     },
     {
       "name": "Niche Research",
       "last_worked": "2026-02-03 13:01",
       "status": "DONE",
-      "mtime": 1770145262.8080294
+      "mtime": 1770145262.8080294,
+      "agent": "** RESEARCHER"
     }
   ],
   "alpha": [
@@ -353,5 +375,5 @@
       "mentions": 28
     }
   ],
-  "last_update": "2026-02-09 18:38:48"
+  "last_update": "2026-02-09 18:45:10"
 }
