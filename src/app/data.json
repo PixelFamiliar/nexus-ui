@@ -400,8 +400,8 @@
     {
       "ticker": "SPOT",
       "name": "Spotify",
-      "change": "+2400.0%",
-      "mentions": 25
+      "change": "+2500.0%",
+      "mentions": 26
     },
     {
       "ticker": "XLE",
@@ -410,5 +410,5 @@
       "mentions": 18
     }
   ],
-  "last_update": "2026-02-10 03:22:40"
+  "last_update": "2026-02-10 03:29:47"
 }
