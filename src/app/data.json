@@ -392,23 +392,23 @@
   ],
   "market_intel": [
     {
+      "ticker": "QNCX",
+      "name": "Quince Therapeutics",
+      "change": "+6700.0%",
+      "mentions": 68
+    },
+    {
       "ticker": "SCHW",
       "name": "Charles Schwab",
       "change": "+2400.0%",
       "mentions": 25
     },
     {
-      "ticker": "CD",
-      "name": "Chindata",
-      "change": "+1500.0%",
-      "mentions": 16
-    },
-    {
-      "ticker": "FIG",
-      "name": "Figma",
+      "ticker": "TLT",
+      "name": "BlackRock Institutional Trust Company N.A. - BTC iShares 20+ Year Trea",
       "change": "+1500.0%",
       "mentions": 16
     }
   ],
-  "last_update": "2026-02-10 16:01:37"
+  "last_update": "2026-02-10 16:05:08"
 }
