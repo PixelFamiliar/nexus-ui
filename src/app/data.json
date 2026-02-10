@@ -394,8 +394,8 @@
     {
       "ticker": "SPOT",
       "name": "Spotify",
-      "change": "+3000.0%",
-      "mentions": 31
+      "change": "+3100.0%",
+      "mentions": 32
     },
     {
       "ticker": "CC",
@@ -404,11 +404,11 @@
       "mentions": 21
     },
     {
-      "ticker": "XLE",
-      "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
-      "change": "+1800.0%",
-      "mentions": 19
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "change": "+1900.0%",
+      "mentions": 20
     }
   ],
-  "last_update": "2026-02-10 06:22:45"
+  "last_update": "2026-02-10 06:55:28"
 }
