@@ -348,6 +348,13 @@
   ],
   "alpha": [
     {
+      "rank": "ALPHA",
+      "source": "ARBITRAGE",
+      "handle": "QUANT",
+      "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
+      "time": "Mon Feb  9 21:41:54 CST 2026"
+    },
+    {
       "rank": 1,
       "source": "X",
       "handle": "grok",
@@ -403,5 +410,5 @@
       "mentions": 30
     }
   ],
-  "last_update": "2026-02-09 21:35:49"
+  "last_update": "2026-02-09 21:42:04"
 }
