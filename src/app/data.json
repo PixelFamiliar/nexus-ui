@@ -398,17 +398,17 @@
       "mentions": 24
     },
     {
-      "ticker": "FISV",
-      "name": "Fiserv",
-      "change": "+2100.0%",
-      "mentions": 22
-    },
-    {
       "ticker": "XLE",
       "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
       "change": "+2100.0%",
       "mentions": 22
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "change": "+1900.0%",
+      "mentions": 20
     }
   ],
-  "last_update": "2026-02-10 10:30:37"
+  "last_update": "2026-02-10 10:59:40"
 }
