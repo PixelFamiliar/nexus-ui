@@ -394,21 +394,21 @@
     {
       "ticker": "SPOT",
       "name": "Spotify",
-      "change": "+3200.0%",
-      "mentions": 33
-    },
-    {
-      "ticker": "CC",
-      "name": "Chemours",
-      "change": "+2200.0%",
-      "mentions": 23
+      "change": "+3500.0%",
+      "mentions": 36
     },
     {
       "ticker": "DDOG",
       "name": "Datadog",
       "change": "+2100.0%",
       "mentions": 22
+    },
+    {
+      "ticker": "CC",
+      "name": "Chemours",
+      "change": "+2100.0%",
+      "mentions": 22
     }
   ],
-  "last_update": "2026-02-10 08:22:48"
+  "last_update": "2026-02-10 08:51:56"
 }
