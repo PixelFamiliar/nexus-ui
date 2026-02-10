@@ -379,8 +379,8 @@
     {
       "ticker": "APP",
       "name": "AppLovin",
-      "change": "+2800.0%",
-      "mentions": 29
+      "change": "+2900.0%",
+      "mentions": 30
     },
     {
       "ticker": "LUNR",
@@ -389,5 +389,5 @@
       "mentions": 28
     }
   ],
-  "last_update": "2026-02-09 19:08:00"
+  "last_update": "2026-02-09 19:22:44"
 }
