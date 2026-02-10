@@ -400,15 +400,15 @@
     {
       "ticker": "ORCL",
       "name": "Oracle",
-      "change": "+2900.0%",
-      "mentions": 30
+      "change": "+3100.0%",
+      "mentions": 32
     },
     {
-      "ticker": "LUNR",
-      "name": "Intuitive Machines",
-      "change": "+2900.0%",
-      "mentions": 30
+      "ticker": "APP",
+      "name": "AppLovin",
+      "change": "+3100.0%",
+      "mentions": 32
     }
   ],
-  "last_update": "2026-02-09 21:43:01"
+  "last_update": "2026-02-10 00:23:10"
 }
