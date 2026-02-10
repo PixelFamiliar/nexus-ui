@@ -398,17 +398,17 @@
       "mentions": 25
     },
     {
-      "ticker": "RIVN",
-      "name": "Rivian",
+      "ticker": "TLT",
+      "name": "BlackRock Institutional Trust Company N.A. - BTC iShares 20+ Year Trea",
       "change": "+1500.0%",
       "mentions": 16
     },
     {
-      "ticker": "FIG",
-      "name": "Figma",
+      "ticker": "RIVN",
+      "name": "Rivian",
       "change": "+1500.0%",
       "mentions": 16
     }
   ],
-  "last_update": "2026-02-10 15:15:31"
+  "last_update": "2026-02-10 15:22:47"
 }
