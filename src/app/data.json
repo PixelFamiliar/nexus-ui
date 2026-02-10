@@ -352,7 +352,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Mon Feb  9 21:41:54 CST 2026"
+      "time": "Tue Feb 10 07:11:17 CST 2026"
     },
     {
       "rank": 1,
@@ -394,14 +394,14 @@
     {
       "ticker": "SPOT",
       "name": "Spotify",
-      "change": "+3100.0%",
-      "mentions": 32
+      "change": "+3200.0%",
+      "mentions": 33
     },
     {
       "ticker": "CC",
       "name": "Chemours",
-      "change": "+2000.0%",
-      "mentions": 21
+      "change": "+2100.0%",
+      "mentions": 22
     },
     {
       "ticker": "DDOG",
@@ -410,5 +410,5 @@
       "mentions": 20
     }
   ],
-  "last_update": "2026-02-10 06:55:28"
+  "last_update": "2026-02-10 07:11:18"
 }
