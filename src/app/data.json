@@ -394,8 +394,8 @@
     {
       "ticker": "OPEN",
       "name": "Opendoor",
-      "change": "+3100.0%",
-      "mentions": 32
+      "change": "+2900.0%",
+      "mentions": 30
     },
     {
       "ticker": "SPOT",
@@ -404,11 +404,11 @@
       "mentions": 26
     },
     {
-      "ticker": "XLE",
-      "name": "SSgA Active Trust - SSgA Energy Select Sector SPDR",
-      "change": "+1700.0%",
-      "mentions": 18
+      "ticker": "CC",
+      "name": "Chemours",
+      "change": "+1800.0%",
+      "mentions": 19
     }
   ],
-  "last_update": "2026-02-10 04:32:14"
+  "last_update": "2026-02-10 05:02:17"
 }
