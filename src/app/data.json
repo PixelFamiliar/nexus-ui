@@ -1,13 +1,6 @@
 {
   "tasks": [
     {
-      "id": "2026-02-04-kumo-audit.md",
-      "title": "Competitive Audit: Cloudflare Kumo UI",
-      "agent": "** FRIDAY",
-      "status": "INBOX",
-      "updated": "15:05:37"
-    },
-    {
       "id": "2026-02-09-nexus-alpha-terminal.md",
       "title": "Nexus Alpha Terminal (Project Magnet)",
       "agent": "** JARVIS | DEVELOPER | WRITER",
@@ -22,32 +15,11 @@
       "updated": "18:41:54"
     },
     {
-      "id": "2026-02-09-winnipeg-hockey-income-pilot.md",
-      "title": "Rapid Income Stream - Winnipeg Hockey AI Voice Receptionist",
-      "agent": "** GROWTH | DEVELOPER | RESEARCHER",
-      "status": "INBOX",
-      "updated": "19:07:57"
-    },
-    {
       "id": "research-babyagi3-tools.md",
       "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
       "agent": "** DEVELOPER",
       "status": "INBOX",
       "updated": "20:49:45"
-    },
-    {
-      "id": "reaction_3341.json",
-      "title": "reaction_3341.json",
-      "agent": "PIXEL",
-      "status": "INBOX",
-      "updated": "21:02:49"
-    },
-    {
-      "id": "2026-02-08-scalestream-voice-deployment.md",
-      "title": "ScaleStream Voice Outreach Deployment",
-      "agent": "** VOICE | COORDINATOR",
-      "status": "INBOX",
-      "updated": "18:42:02"
     },
     {
       "id": "2026-02-08-substack-refactor.md",
@@ -57,39 +29,11 @@
       "updated": "18:29:18"
     },
     {
-      "id": "meme_utility_moltmeme.json",
-      "title": "meme_utility_moltmeme.json",
-      "agent": "PIXEL",
-      "status": "INBOX",
-      "updated": "18:47:03"
-    },
-    {
-      "id": "2026-02-04-sponsor-deck.md",
-      "title": "Draft Sponsor Deck",
-      "agent": "** HERMES",
-      "status": "INBOX",
-      "updated": "21:54:11"
-    },
-    {
       "id": "build-setup-kit.md",
       "title": "Implement \"Setup as a Service\" Kit",
       "agent": "** DEVELOPER",
       "status": "INBOX",
       "updated": "21:03:05"
-    },
-    {
-      "id": "2026-02-07-monetize-the-forge.md",
-      "title": "Monetizing The Forge",
-      "agent": "** GROWTH",
-      "status": "INBOX",
-      "updated": "08:51:55"
-    },
-    {
-      "id": "2026-02-05-sentinel-scanner.md",
-      "title": "Implement sentinel-scanner Skill",
-      "agent": "** JARVIS",
-      "status": "IN PROGRESS",
-      "updated": "19:16:29"
     },
     {
       "id": "2026-02-11-openclaw-setup-kit.md",
@@ -113,25 +57,11 @@
       "updated": "12:59:23"
     },
     {
-      "id": "2026-02-06-scalestream-swarm.md",
-      "title": "Launch ScaleStream Swarm",
-      "agent": "** PIXEL (ORCHESTRATOR)",
-      "status": "IN PROGRESS",
-      "updated": "18:29:09"
-    },
-    {
       "id": "2026-02-11-nexus-open-source.md",
       "title": "Open-Source Nexus Dashboard",
       "agent": "** JARVIS (LEAD) | DESIGNER | NOVA",
       "status": "IN PROGRESS",
       "updated": "12:58:56"
-    },
-    {
-      "id": "2026-02-03-agent-discourse-tracker.md",
-      "title": "Build \"The Agent Discourse Tracker\"",
-      "agent": "** JARVIS",
-      "status": "IN PROGRESS",
-      "updated": "13:26:46"
     },
     {
       "id": "2026-02-11-niche-content-site.md",
@@ -155,39 +85,11 @@
       "updated": "21:32:51"
     },
     {
-      "id": "2026-02-04-originality-moat.md",
-      "title": "Originality & Niche Verification (The \"Originality Moat\")",
-      "agent": "** FRIDAY | ATHENA",
-      "status": "IN PROGRESS",
-      "updated": "19:28:51"
-    },
-    {
-      "id": "2026-02-08-batch-001-editing.md",
-      "title": "Stage 4 - Editing/QA (Batch 001)",
-      "agent": "** ATHENA",
-      "status": "REVIEW",
-      "updated": "08:36:17"
-    },
-    {
-      "id": "2026-02-03-agent-infrastructure-research-digital.md",
-      "title": "Digital Infrastructure & Growth Strategy (Pivot)",
-      "agent": "** FRIDAY | HERMES",
-      "status": "REVIEW",
-      "updated": "07:47:46"
-    },
-    {
       "id": "2026-02-04-unbrowse-polymarket.md",
       "title": "Implement Unbrowse Sensor for Polymarket",
       "agent": "** JARVIS",
       "status": "REVIEW",
       "updated": "18:39:35"
-    },
-    {
-      "id": "substack-audit-security.md",
-      "title": "substack-audit-security.md",
-      "agent": "PIXEL",
-      "status": "REVIEW",
-      "updated": "18:45:04"
     }
   ],
   "alpha": [
@@ -240,5 +142,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-11 16:06:49"
+  "last_update": "2026-02-11 16:35:54"
 }
