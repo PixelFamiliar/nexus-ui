@@ -194,14 +194,14 @@
       "title": "Autonomous Sensing & Action",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "00:05:37"
+      "updated": "04:05:37"
     },
     {
       "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "00:00:00"
+      "updated": "01:00:00"
     }
   ],
   "projects": [
@@ -380,50 +380,50 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Tue Feb 10 12:00:24 CST 2026"
+      "time": "Wed Feb 11 00:05:53 CST 2026"
     },
     {
       "rank": 1,
       "source": "X",
-      "handle": "prakshaljain_",
-      "title": "@pablothethinker @openclaw Interesting lol...",
-      "time": "2026-02-10 20:00:07"
+      "handle": "clawplaza_ai",
+      "title": "Here's a quick shortcut to start mining your Genesis NFT \u2014 just send this to your OpenClaw agent:\n\n-...",
+      "time": "2026-02-11 06:05:50"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "Sady7xlgh",
-      "title": "@korzewarrior It was a nice piece of work, but I haven't tried Helen Openclaw yet :D Should I try it...",
-      "time": "2026-02-10 20:00:07"
+      "handle": "yak_k88328",
+      "title": "Install OpenClaw, MoltBot &amp; ClawdBot on VPS (DigitalOcean/Hetzner) with this guide.https://t.co/...",
+      "time": "2026-02-11 06:05:50"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "AICostLedger",
-      "title": "@steipete @VoteforPedro @openclaw yeah, vibe shifts instantly. feels less polite, more alive lol...",
-      "time": "2026-02-10 20:00:07"
+      "handle": "chriskhan01",
+      "title": "@iamBarronRoth @openclaw This is actually genius. Way more memorable than another generic wedding we...",
+      "time": "2026-02-11 06:05:50"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "prakshaljain_",
-      "title": "@baibhav_eth @openclaw Haha exactly. Need to figure that part out...",
-      "time": "2026-02-10 20:00:07"
+      "handle": "hlopez_",
+      "title": "@_mayurc @openclaw How are they isolated?...",
+      "time": "2026-02-11 06:05:50"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "TeslaCowboy1",
-      "title": "Well, I jumped in the AI OpenClaw world.  Let's see if my postings improve LOL...",
-      "time": "2026-02-10 20:00:07"
+      "handle": "sirshibaninja",
+      "title": "@AdamAutomates @Cloudflare @openclaw This highlights a classic pricing complexity issue - per GiB-se...",
+      "time": "2026-02-11 06:05:50"
     }
   ],
   "market_intel": [
     {
       "ticker": "QNCX",
       "name": "Quince Therapeutics",
-      "change": "+2400.0%",
-      "mentions": 100
+      "change": "+2375.0%",
+      "mentions": 99
     },
     {
       "ticker": "SPGI",
@@ -438,5 +438,5 @@
       "mentions": 14
     }
   ],
-  "last_update": "2026-02-10 23:30:17"
+  "last_update": "2026-02-11 00:35:49"
 }
