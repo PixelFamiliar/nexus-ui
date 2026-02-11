@@ -176,6 +176,13 @@
       "updated": "08:36:17"
     },
     {
+      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
+      "title": "Autonomous Sensing & Action",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "08:05:37"
+    },
+    {
       "id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
       "title": "Daily Self-Review (Config Drift Detection)",
       "agent": "SENTINEL",
@@ -190,18 +197,11 @@
       "updated": "07:47:46"
     },
     {
-      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
-      "title": "Autonomous Sensing & Action",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "04:05:37"
-    },
-    {
       "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "04:00:00"
+      "updated": "05:00:00"
     }
   ],
   "projects": [
@@ -380,45 +380,51 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 00:05:53 CST 2026"
+      "time": "Wed Feb 11 04:06:20 CST 2026"
     },
     {
       "rank": 1,
       "source": "X",
-      "handle": "clawplaza_ai",
-      "title": "Here's a quick shortcut to start mining your Genesis NFT \u2014 just send this to your OpenClaw agent:\n\n-...",
-      "time": "2026-02-11 06:05:50"
+      "handle": "kei_q",
+      "title": "OpenClaw\u4f7f\u3063\u3066\u308b\u3068\u304dLLM\u306eAPI\u306e\u30b3\u30b9\u30c8\u7ba1\u7406\u3084\u7121\u99c4\u9063\u3044\u306e\u898b\u76f4\u3057\u3068\u304b\u3069\u3046\u3057\u3066\u308b\u3093\u3060\u308d\u3046...",
+      "time": "2026-02-11 10:05:43"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "yak_k88328",
-      "title": "Install OpenClaw, MoltBot &amp; ClawdBot on VPS (DigitalOcean/Hetzner) with this guide.https://t.co/...",
-      "time": "2026-02-11 06:05:50"
+      "handle": "shingyuraifu",
+      "title": "\u6368\u3066PC\uff08Windows\uff09\u306bOpenclaw \u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u4f5c\u696d\u3001\u596e\u95d8\u4e2d\u3002\n\n\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u30ac\u30a4\u30c9\u306e\u30b5\u30a4\u30c8\u901a\u308a\u306b\u306a\u3089\u306a\u3044\u5834\u9762\u304c\u591a\u3005\u3042\u308a\u3001\u51fa\u3066\u304f\u308b\u30a8\u30e9\u30fc\u306a\u3069\u3055\u3063\u3071\u308a\u308f\u304b\u3089\u306a\u3044\u3051\u3069\u3001GPT\u306b\u805e\u3051\u3070\u3068\u308a\u3042\u3048\u305a...",
+      "time": "2026-02-11 10:05:43"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "chriskhan01",
-      "title": "@iamBarronRoth @openclaw This is actually genius. Way more memorable than another generic wedding we...",
-      "time": "2026-02-11 06:05:50"
+      "handle": "BoyoyoThunder",
+      "title": "@CryptoTeca__ @openclaw Very informative \ud83d\udc4d...",
+      "time": "2026-02-11 10:05:43"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "hlopez_",
-      "title": "@_mayurc @openclaw How are they isolated?...",
-      "time": "2026-02-11 06:05:50"
+      "handle": "BillSun_AI",
+      "title": "@steipete Love to pose this challenge for a team of openclaw agents to do research:\n\nhttps://t.co/lm...",
+      "time": "2026-02-11 10:05:43"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "sirshibaninja",
-      "title": "@AdamAutomates @Cloudflare @openclaw This highlights a classic pricing complexity issue - per GiB-se...",
-      "time": "2026-02-11 06:05:50"
+      "handle": "aikeiris",
+      "title": "OpenClaw\u3092\u59cb\u52d5\u3057\u3088\u3046\u3068\u304a\u3082\u3044\u307e\u3059\u3002\n\u305d\u306e\u305f\u3081\u3001\u8abf\u3079\u3082\u306e\u3067\u6700\u8fd1X\u6d3b\u52d5\u304c\u5c11\u3057\u306e\u3093\u3073\u308a\u306b\u306a\u308a\u5bdd\u4e0d\u8db3\ud83d\ude11\n\n\u3053\u308c\u306f\u3001\u6b63\u76f4\u3002\n\n\u7d4c\u7406\u3068\u3057\u3066\u306f\u30c0\u30fc\u30af\u30b5\u30a4\u30c9\u306e\u7269\u8a9e\u3002\n\u306a\u3093\u305b\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u3057\u3066\u306f\u3001\u304b\u306a\u308a\u30a2\u30a6\u30c8\u3002...",
+      "time": "2026-02-11 10:05:43"
     }
   ],
   "market_intel": [
+    {
+      "ticker": "BYD",
+      "name": "Boyd Gaming",
+      "change": "+1700.0%",
+      "mentions": 18
+    },
     {
       "ticker": "SPGI",
       "name": "S&P Global",
@@ -426,17 +432,11 @@
       "mentions": 16
     },
     {
-      "ticker": "BYD",
-      "name": "Boyd Gaming",
-      "change": "+1400.0%",
-      "mentions": 15
-    },
-    {
       "ticker": "GM",
       "name": "General Motors",
-      "change": "+1300.0%",
-      "mentions": 14
+      "change": "+1400.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-11 03:30:29"
+  "last_update": "2026-02-11 04:35:40"
 }
