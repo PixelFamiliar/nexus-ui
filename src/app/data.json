@@ -15,6 +15,13 @@
       "updated": "22:00:00"
     },
     {
+      "id": "9928f803-f260-4b26-94cc-add874a19d61",
+      "title": "Update MEMORY.md Heartbeat Task",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "22:00:00"
+    },
+    {
       "id": "2026-02-04-sponsor-deck.md",
       "title": "Draft Sponsor Deck",
       "agent": "** HERMES",
@@ -169,11 +176,32 @@
       "updated": "08:36:17"
     },
     {
+      "id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
+      "title": "Daily Self-Review (Config Drift Detection)",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "08:00:00"
+    },
+    {
       "id": "2026-02-03-agent-infrastructure-research-digital.md",
       "title": "Digital Infrastructure & Growth Strategy (Pivot)",
       "agent": "** FRIDAY | HERMES",
       "status": "REVIEW",
       "updated": "07:47:46"
+    },
+    {
+      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
+      "title": "Autonomous Sensing & Action",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "00:05:37"
+    },
+    {
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "00:00:00"
     }
   ],
   "projects": [
@@ -394,21 +422,21 @@
     {
       "ticker": "QNCX",
       "name": "Quince Therapeutics",
-      "change": "+7800.0%",
-      "mentions": 79
-    },
-    {
-      "ticker": "SCHW",
-      "name": "Charles Schwab",
       "change": "+2400.0%",
-      "mentions": 25
+      "mentions": 100
     },
     {
       "ticker": "SPGI",
       "name": "S&P Global",
-      "change": "+1400.0%",
-      "mentions": 15
+      "change": "+1500.0%",
+      "mentions": 16
+    },
+    {
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "change": "+1300.0%",
+      "mentions": 14
     }
   ],
-  "last_update": "2026-02-10 17:26:52"
+  "last_update": "2026-02-10 23:30:17"
 }
