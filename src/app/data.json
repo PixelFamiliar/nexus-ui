@@ -196,7 +196,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 14:30:55 CST 2026"
+      "time": "Wed Feb 11 14:31:26 CST 2026"
     },
     {
       "rank": 1,
@@ -240,5 +240,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-11 14:31:25"
+  "last_update": "2026-02-11 14:32:30"
 }
