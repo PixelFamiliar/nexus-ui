@@ -422,8 +422,8 @@
     {
       "ticker": "BYD",
       "name": "Boyd Gaming",
-      "change": "+2200.0%",
-      "mentions": 23
+      "change": "+2300.0%",
+      "mentions": 24
     },
     {
       "ticker": "GM",
@@ -438,5 +438,5 @@
       "mentions": 15
     }
   ],
-  "last_update": "2026-02-11 07:07:43"
+  "last_update": "2026-02-11 07:17:08"
 }
