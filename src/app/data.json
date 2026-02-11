@@ -183,6 +183,13 @@
       "updated": "08:05:37"
     },
     {
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "08:00:00"
+    },
+    {
       "id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
       "title": "Daily Self-Review (Config Drift Detection)",
       "agent": "SENTINEL",
@@ -195,13 +202,6 @@
       "agent": "** FRIDAY | HERMES",
       "status": "REVIEW",
       "updated": "07:47:46"
-    },
-    {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "07:00:00"
     }
   ],
   "projects": [
@@ -380,7 +380,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 06:31:10 CST 2026"
+      "time": "Wed Feb 11 06:32:20 CST 2026"
     },
     {
       "rank": 1,
@@ -420,23 +420,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "GM",
-      "name": "General Motors",
-      "change": "+2000.0%",
-      "mentions": 21
-    },
-    {
       "ticker": "BYD",
       "name": "Boyd Gaming",
-      "change": "+2000.0%",
-      "mentions": 21
+      "change": "+2200.0%",
+      "mentions": 23
     },
     {
-      "ticker": "SPGI",
-      "name": "S&P Global",
+      "ticker": "GM",
+      "name": "General Motors",
+      "change": "+2100.0%",
+      "mentions": 22
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart",
       "change": "+1400.0%",
       "mentions": 15
     }
   ],
-  "last_update": "2026-02-11 06:32:19"
+  "last_update": "2026-02-11 07:07:43"
 }
