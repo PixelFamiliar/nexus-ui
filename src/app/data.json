@@ -201,7 +201,7 @@
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "06:00:00"
+      "updated": "07:00:00"
     }
   ],
   "projects": [
@@ -376,6 +376,13 @@
   ],
   "alpha": [
     {
+      "rank": "ALPHA",
+      "source": "ARBITRAGE",
+      "handle": "QUANT",
+      "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
+      "time": "Wed Feb 11 05:58:20 CST 2026"
+    },
+    {
       "rank": 1,
       "source": "X",
       "handle": "kei_q",
@@ -413,23 +420,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "BYD",
-      "name": "Boyd Gaming",
-      "change": "+1900.0%",
-      "mentions": 20
-    },
-    {
       "ticker": "GM",
       "name": "General Motors",
-      "change": "+1500.0%",
-      "mentions": 16
+      "change": "+2000.0%",
+      "mentions": 21
+    },
+    {
+      "ticker": "BYD",
+      "name": "Boyd Gaming",
+      "change": "+2000.0%",
+      "mentions": 21
     },
     {
       "ticker": "SPGI",
       "name": "S&P Global",
-      "change": "+1500.0%",
-      "mentions": 16
+      "change": "+1400.0%",
+      "mentions": 15
     }
   ],
-  "last_update": "2026-02-11 05:30:08"
+  "last_update": "2026-02-11 06:31:09"
 }
