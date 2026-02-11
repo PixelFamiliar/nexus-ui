@@ -1,74 +1,11 @@
 {
   "tasks": [
     {
-      "id": "b9fb9624-682f-413d-86bb-77a29badbadd",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:1",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "23:49:08"
-    },
-    {
-      "id": "b135e1b6-14ba-443f-972d-480eb0843308",
-      "title": "Live Run: agent:main:cron:9928f803-f260-4b26-94cc-add874a19d61",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "9928f803-f260-4b26-94cc-add874a19d61",
-      "title": "Update MEMORY.md Heartbeat Task",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "2026-02-04-sponsor-deck.md",
-      "title": "Draft Sponsor Deck",
-      "agent": "** HERMES",
+      "id": "2026-02-04-kumo-audit.md",
+      "title": "Competitive Audit: Cloudflare Kumo UI",
+      "agent": "** FRIDAY",
       "status": "INBOX",
-      "updated": "21:54:11"
-    },
-    {
-      "id": "batch-001-ai-agent-workflows.md",
-      "title": "Content Batch 001 - AI Agent Workflows",
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
-      "status": "IN PROGRESS",
-      "updated": "21:32:51"
-    },
-    {
-      "id": "1a5e8c2c-3f83-48c9-8de8-ddb7778614a7",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "21:03:09"
-    },
-    {
-      "id": "build-setup-kit.md",
-      "title": "Implement \"Setup as a Service\" Kit",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "21:03:05"
-    },
-    {
-      "id": "reaction_3341.json",
-      "title": "reaction_3341.json",
-      "agent": "PIXEL",
-      "status": "INBOX",
-      "updated": "21:02:49"
-    },
-    {
-      "id": "research-babyagi3-tools.md",
-      "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "20:49:45"
-    },
-    {
-      "id": "2026-02-04-originality-moat.md",
-      "title": "Originality & Niche Verification (The \"Originality Moat\")",
-      "agent": "** FRIDAY | ATHENA",
-      "status": "IN PROGRESS",
-      "updated": "19:28:51"
+      "updated": "15:05:37"
     },
     {
       "id": "2026-02-09-nexus-alpha-terminal.md",
@@ -78,11 +15,11 @@
       "updated": "19:24:55"
     },
     {
-      "id": "2026-02-05-sentinel-scanner.md",
-      "title": "Implement sentinel-scanner Skill",
-      "agent": "** JARVIS",
-      "status": "IN PROGRESS",
-      "updated": "19:16:29"
+      "id": "2026-02-08-substack-staging.md",
+      "title": "Lock Down Substack Staging Workflow",
+      "agent": "** DEVELOPER | WRITER",
+      "status": "INBOX",
+      "updated": "18:41:54"
     },
     {
       "id": "2026-02-09-winnipeg-hockey-income-pilot.md",
@@ -92,18 +29,18 @@
       "updated": "19:07:57"
     },
     {
-      "id": "meme_utility_moltmeme.json",
-      "title": "meme_utility_moltmeme.json",
-      "agent": "PIXEL",
+      "id": "research-babyagi3-tools.md",
+      "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
+      "agent": "** DEVELOPER",
       "status": "INBOX",
-      "updated": "18:47:03"
+      "updated": "20:49:45"
     },
     {
-      "id": "substack-audit-security.md",
-      "title": "substack-audit-security.md",
+      "id": "reaction_3341.json",
+      "title": "reaction_3341.json",
       "agent": "PIXEL",
-      "status": "REVIEW",
-      "updated": "18:45:04"
+      "status": "INBOX",
+      "updated": "21:02:49"
     },
     {
       "id": "2026-02-08-scalestream-voice-deployment.md",
@@ -113,20 +50,6 @@
       "updated": "18:42:02"
     },
     {
-      "id": "2026-02-08-substack-staging.md",
-      "title": "Lock Down Substack Staging Workflow",
-      "agent": "** DEVELOPER | WRITER",
-      "status": "INBOX",
-      "updated": "18:41:54"
-    },
-    {
-      "id": "2026-02-04-unbrowse-polymarket.md",
-      "title": "Implement Unbrowse Sensor for Polymarket",
-      "agent": "** JARVIS",
-      "status": "REVIEW",
-      "updated": "18:39:35"
-    },
-    {
       "id": "2026-02-08-substack-refactor.md",
       "title": "Substack Automator Refactor",
       "agent": "** JARVIS",
@@ -134,32 +57,25 @@
       "updated": "18:29:18"
     },
     {
-      "id": "2026-02-06-scalestream-swarm.md",
-      "title": "Launch ScaleStream Swarm",
-      "agent": "** PIXEL (ORCHESTRATOR)",
-      "status": "IN PROGRESS",
-      "updated": "18:29:09"
-    },
-    {
-      "id": "2026-02-04-kumo-audit.md",
-      "title": "Competitive Audit: Cloudflare Kumo UI",
-      "agent": "** FRIDAY",
+      "id": "meme_utility_moltmeme.json",
+      "title": "meme_utility_moltmeme.json",
+      "agent": "PIXEL",
       "status": "INBOX",
-      "updated": "15:05:37"
+      "updated": "18:47:03"
     },
     {
-      "id": "2026-02-03-agent-discourse-tracker.md",
-      "title": "Build \"The Agent Discourse Tracker\"",
-      "agent": "** JARVIS",
-      "status": "IN PROGRESS",
-      "updated": "13:26:46"
+      "id": "2026-02-04-sponsor-deck.md",
+      "title": "Draft Sponsor Deck",
+      "agent": "** HERMES",
+      "status": "INBOX",
+      "updated": "21:54:11"
     },
     {
-      "id": "f45bdcfb-1b44-4213-b800-5e78a3a24107",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:25",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "12:11:26"
+      "id": "build-setup-kit.md",
+      "title": "Implement \"Setup as a Service\" Kit",
+      "agent": "** DEVELOPER",
+      "status": "INBOX",
+      "updated": "21:03:05"
     },
     {
       "id": "2026-02-07-monetize-the-forge.md",
@@ -169,6 +85,41 @@
       "updated": "08:51:55"
     },
     {
+      "id": "2026-02-05-sentinel-scanner.md",
+      "title": "Implement sentinel-scanner Skill",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "19:16:29"
+    },
+    {
+      "id": "2026-02-06-scalestream-swarm.md",
+      "title": "Launch ScaleStream Swarm",
+      "agent": "** PIXEL (ORCHESTRATOR)",
+      "status": "IN PROGRESS",
+      "updated": "18:29:09"
+    },
+    {
+      "id": "2026-02-03-agent-discourse-tracker.md",
+      "title": "Build \"The Agent Discourse Tracker\"",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "13:26:46"
+    },
+    {
+      "id": "batch-001-ai-agent-workflows.md",
+      "title": "Content Batch 001 - AI Agent Workflows",
+      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
+      "status": "IN PROGRESS",
+      "updated": "21:32:51"
+    },
+    {
+      "id": "2026-02-04-originality-moat.md",
+      "title": "Originality & Niche Verification (The \"Originality Moat\")",
+      "agent": "** FRIDAY | ATHENA",
+      "status": "IN PROGRESS",
+      "updated": "19:28:51"
+    },
+    {
       "id": "2026-02-08-batch-001-editing.md",
       "title": "Stage 4 - Editing/QA (Batch 001)",
       "agent": "** ATHENA",
@@ -176,202 +127,25 @@
       "updated": "08:36:17"
     },
     {
-      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
-      "title": "Autonomous Sensing & Action",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "08:05:37"
-    },
-    {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "08:00:00"
-    },
-    {
-      "id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
-      "title": "Daily Self-Review (Config Drift Detection)",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "08:00:00"
-    },
-    {
       "id": "2026-02-03-agent-infrastructure-research-digital.md",
       "title": "Digital Infrastructure & Growth Strategy (Pivot)",
       "agent": "** FRIDAY | HERMES",
       "status": "REVIEW",
       "updated": "07:47:46"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Nexus Alpha Terminal",
-      "last_worked": "2026-02-09 19:24",
-      "status": "INBOX",
-      "mtime": 1770686695.4544346,
-      "agent": "** JARVIS | DEVELOPER | WRITER"
     },
     {
-      "name": "Winnipeg Hockey Income Pilot",
-      "last_worked": "2026-02-09 19:07",
-      "status": "INBOX",
-      "mtime": 1770685677.7727013,
-      "agent": "** GROWTH | DEVELOPER | RESEARCHER"
-    },
-    {
-      "name": "Substack Audit Security",
-      "last_worked": "2026-02-08 18:45",
+      "id": "2026-02-04-unbrowse-polymarket.md",
+      "title": "Implement Unbrowse Sensor for Polymarket",
+      "agent": "** JARVIS",
       "status": "REVIEW",
-      "mtime": 1770597904.2239,
-      "agent": "PIXEL"
+      "updated": "18:39:35"
     },
     {
-      "name": "Scalestream Voice Deployment",
-      "last_worked": "2026-02-08 18:42",
-      "status": "INBOX",
-      "mtime": 1770597722.2809148,
-      "agent": "** VOICE | COORDINATOR"
-    },
-    {
-      "name": "Substack Staging",
-      "last_worked": "2026-02-08 18:41",
-      "status": "INBOX",
-      "mtime": 1770597714.843278,
-      "agent": "** DEVELOPER | WRITER"
-    },
-    {
-      "name": "Substack Refactor",
-      "last_worked": "2026-02-08 18:29",
-      "status": "INBOX",
-      "mtime": 1770596958.856403,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Scalestream Swarm",
-      "last_worked": "2026-02-08 18:29",
-      "status": "IN PROGRESS",
-      "mtime": 1770596949.794849,
-      "agent": "** PIXEL (ORCHESTRATOR)"
-    },
-    {
-      "name": "Batch 001 Editing",
-      "last_worked": "2026-02-08 08:36",
+      "id": "substack-audit-security.md",
+      "title": "substack-audit-security.md",
+      "agent": "PIXEL",
       "status": "REVIEW",
-      "mtime": 1770561377.3946466,
-      "agent": "** ATHENA"
-    },
-    {
-      "name": "Batch 001 Ai Agent Workflows",
-      "last_worked": "2026-02-07 21:32",
-      "status": "IN PROGRESS",
-      "mtime": 1770521571.4845068,
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)"
-    },
-    {
-      "name": "Build Setup Kit",
-      "last_worked": "2026-02-07 21:03",
-      "status": "INBOX",
-      "mtime": 1770519785.0994265,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Research Babyagi3 Tools",
-      "last_worked": "2026-02-07 20:49",
-      "status": "INBOX",
-      "mtime": 1770518985.1234448,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Substack Clawphone",
-      "last_worked": "2026-02-07 18:37",
-      "status": "DONE",
-      "mtime": 1770511030.0210912,
-      "agent": "** WRITER"
-    },
-    {
-      "name": "Substack Automator",
-      "last_worked": "2026-02-07 18:37",
-      "status": "DONE",
-      "mtime": 1770511026.7598763,
-      "agent": "** JARVIS | LOKI"
-    },
-    {
-      "name": "Voice Outreach",
-      "last_worked": "2026-02-07 10:32",
-      "status": "DONE",
-      "mtime": 1770481965.5165832,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Monetize The Forge",
-      "last_worked": "2026-02-07 08:51",
-      "status": "INBOX",
-      "mtime": 1770475915.0027556,
-      "agent": "** GROWTH"
-    },
-    {
-      "name": "Sentinel Sandbox",
-      "last_worked": "2026-02-07 08:40",
-      "status": "DONE",
-      "mtime": 1770475248.105718,
-      "agent": "** SENTINEL"
-    },
-    {
-      "name": "Originality Moat",
-      "last_worked": "2026-02-05 19:28",
-      "status": "IN PROGRESS",
-      "mtime": 1770341331.1735773,
-      "agent": "** FRIDAY | ATHENA"
-    },
-    {
-      "name": "Unbrowse Polymarket",
-      "last_worked": "2026-02-05 18:39",
-      "status": "REVIEW",
-      "mtime": 1770338375.864991,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Sponsor Deck",
-      "last_worked": "2026-02-04 21:54",
-      "status": "INBOX",
-      "mtime": 1770263651.027046,
-      "agent": "** HERMES"
-    },
-    {
-      "name": "Sentinel Scanner",
-      "last_worked": "2026-02-04 19:16",
-      "status": "IN PROGRESS",
-      "mtime": 1770254189.334754,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Kumo Audit",
-      "last_worked": "2026-02-04 15:05",
-      "status": "INBOX",
-      "mtime": 1770239137.106894,
-      "agent": "** FRIDAY"
-    },
-    {
-      "name": "Agent Discourse Tracker",
-      "last_worked": "2026-02-04 13:26",
-      "status": "IN PROGRESS",
-      "mtime": 1770233206.6753876,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Agent Infrastructure Research Digital",
-      "last_worked": "2026-02-04 07:47",
-      "status": "REVIEW",
-      "mtime": 1770212866.3082323,
-      "agent": "** FRIDAY | HERMES"
-    },
-    {
-      "name": "Niche Research",
-      "last_worked": "2026-02-03 13:01",
-      "status": "DONE",
-      "mtime": 1770145262.8080294,
-      "agent": "** RESEARCHER"
+      "updated": "18:45:04"
     }
   ],
   "alpha": [
@@ -380,7 +154,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 07:17:09 CST 2026"
+      "time": "Wed Feb 11 07:47:09 CST 2026"
     },
     {
       "rank": 1,
@@ -418,25 +192,11 @@
       "time": "2026-02-11 10:05:43"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "BYD",
-      "name": "Boyd Gaming",
-      "change": "+2500.0%",
-      "mentions": 26
-    },
-    {
-      "ticker": "GM",
-      "name": "General Motors",
-      "change": "+2400.0%",
-      "mentions": 25
-    },
-    {
-      "ticker": "UPST",
-      "name": "Upstart",
-      "change": "+1500.0%",
-      "mentions": 16
-    }
-  ],
-  "last_update": "2026-02-11 07:47:08"
+  "finance": {
+    "walletAddress": "0xD740df98...35cd",
+    "activeFloat": "$33.28 USDC",
+    "dailyYield": "$0.00",
+    "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
+  },
+  "last_update": "2026-02-11 07:59:57"
 }
