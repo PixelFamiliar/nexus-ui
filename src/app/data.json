@@ -201,7 +201,7 @@
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "02:00:00"
+      "updated": "04:00:00"
     }
   ],
   "projects": [
@@ -420,23 +420,23 @@
   ],
   "market_intel": [
     {
-      "ticker": "QNCX",
-      "name": "Quince Therapeutics",
-      "change": "+1616.6666666666667%",
-      "mentions": 103
-    },
-    {
       "ticker": "SPGI",
       "name": "S&P Global",
       "change": "+1500.0%",
       "mentions": 16
     },
     {
-      "ticker": "DUOL",
-      "name": "Duolingo",
-      "change": "+1300.0%",
-      "mentions": 14
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "change": "+1250.0%",
+      "mentions": 27
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "change": "+1200.0%",
+      "mentions": 13
     }
   ],
-  "last_update": "2026-02-11 01:30:23"
+  "last_update": "2026-02-11 03:00:13"
 }
