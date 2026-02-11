@@ -201,7 +201,7 @@
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "01:00:00"
+      "updated": "02:00:00"
     }
   ],
   "projects": [
@@ -422,8 +422,8 @@
     {
       "ticker": "QNCX",
       "name": "Quince Therapeutics",
-      "change": "+2375.0%",
-      "mentions": 99
+      "change": "+1616.6666666666667%",
+      "mentions": 103
     },
     {
       "ticker": "SPGI",
@@ -438,5 +438,5 @@
       "mentions": 14
     }
   ],
-  "last_update": "2026-02-11 00:35:49"
+  "last_update": "2026-02-11 01:30:23"
 }
