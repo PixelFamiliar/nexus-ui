@@ -92,6 +92,27 @@
       "updated": "19:16:29"
     },
     {
+      "id": "2026-02-11-openclaw-setup-kit.md",
+      "title": "OpenClaw Setup Kit \u2014 Public Starter Templates",
+      "agent": "** JARVIS (LEAD) | LOKI | NOVA | SECURITY",
+      "status": "IN PROGRESS",
+      "updated": "12:59:07"
+    },
+    {
+      "id": "2026-02-11-discord-community-bot.md",
+      "title": "Build AI Agent Community Discord Bot",
+      "agent": "** JARVIS (LEAD) | FRIDAY | NOVA",
+      "status": "IN PROGRESS",
+      "updated": "12:59:37"
+    },
+    {
+      "id": "2026-02-11-agent-cost-analyzer.md",
+      "title": "Build AI Agent Cost Analyzer Tool",
+      "agent": "** JARVIS (LEAD) | ATLAS | NOVA | DESIGNER",
+      "status": "IN PROGRESS",
+      "updated": "12:59:23"
+    },
+    {
       "id": "2026-02-06-scalestream-swarm.md",
       "title": "Launch ScaleStream Swarm",
       "agent": "** PIXEL (ORCHESTRATOR)",
@@ -99,11 +120,32 @@
       "updated": "18:29:09"
     },
     {
+      "id": "2026-02-11-nexus-open-source.md",
+      "title": "Open-Source Nexus Dashboard",
+      "agent": "** JARVIS (LEAD) | DESIGNER | NOVA",
+      "status": "IN PROGRESS",
+      "updated": "12:58:56"
+    },
+    {
       "id": "2026-02-03-agent-discourse-tracker.md",
       "title": "Build \"The Agent Discourse Tracker\"",
       "agent": "** JARVIS",
       "status": "IN PROGRESS",
       "updated": "13:26:46"
+    },
+    {
+      "id": "2026-02-11-niche-content-site.md",
+      "title": "Launch SEO-Driven Niche Content Site",
+      "agent": "** FRIDAY (RESEARCH) | NOVA (SEO) | LOKI (WRITING) | ATHENA (EDITING) | JARVIS (INFRA)",
+      "status": "IN PROGRESS",
+      "updated": "12:59:35"
+    },
+    {
+      "id": "2026-02-11-revenue-skills-build.md",
+      "title": "Build 5 Revenue-Critical Skills",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "13:04:57"
     },
     {
       "id": "batch-001-ai-agent-workflows.md",
@@ -154,7 +196,7 @@
       "source": "ARBITRAGE",
       "handle": "QUANT",
       "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 09:16:06 CST 2026"
+      "time": "Wed Feb 11 09:45:56 CST 2026"
     },
     {
       "rank": 1,
@@ -198,5 +240,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-11 09:45:54"
+  "last_update": "2026-02-11 14:30:53"
 }
