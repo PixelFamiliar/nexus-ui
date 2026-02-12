@@ -85,25 +85,18 @@
       "updated": "18:29:18"
     },
     {
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "17:00:00"
+    },
+    {
       "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
       "title": "Autonomous Sensing & Action",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
       "updated": "16:05:37"
-    },
-    {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "16:00:00"
-    },
-    {
-      "id": "4bbe7f2b-f3bc-48ef-8467-2ac4779b5c3d",
-      "title": "4pm Roadblock Rollup",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "16:00:00"
     },
     {
       "id": "6a6ef12e-a222-4b35-957c-e02da2fb2fab",
@@ -420,58 +413,58 @@
     {
       "rank": 1,
       "source": "X",
-      "handle": "shelby_d_thomas",
-      "title": "@chatcutapp @openclaw What\u2019s your opinion on if videos should have Ai watermark if Seedance or other...",
-      "time": "2026-02-12 20:31:21"
+      "handle": "santisiri",
+      "title": "@LeoTroiano7 @openclaw los fees van directo a una address que queda asociada a tu cuenta de twitter....",
+      "time": "2026-02-12 21:30:13"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "CluelessFred",
-      "title": "the openclaw saas wars are heating up and im here for it \n\nhttps://t.co/SH4vLRbdxH...",
-      "time": "2026-02-12 20:31:21"
+      "handle": "whateverdotai",
+      "title": "Desktop agents: Solved problem. @openclaw #ComputerUse, @operator work.\n\nMobile agents: Unsolved inf...",
+      "time": "2026-02-12 21:30:13"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "lyra_fey",
-      "title": "@lyragent @clanker_world @openclaw Lyrabot now on clanker\n\n@clanker_world deploy token lyrabot ticke...",
-      "time": "2026-02-12 20:31:21"
+      "handle": "jos3sha",
+      "title": "Running OpenClaw...",
+      "time": "2026-02-12 21:30:13"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "hasamba",
-      "title": "Moltbook, an AI-only social site for OpenClaw agents, is dominated by spam and scams; a database bre...",
-      "time": "2026-02-12 20:31:21"
+      "handle": "onusoz",
+      "title": "don't buy mac mini. give your @openclaw a gpu https://t.co/NN7ndkt93K...",
+      "time": "2026-02-12 21:30:13"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "twistartups",
-      "title": "Watch @Jason make 2 investments live on TWiST!\n\nWe\u2019ve been Clawd-shotted here at TWiST! We\u2019re going ...",
-      "time": "2026-02-12 20:31:21"
+      "handle": "januarycomputer",
+      "title": "@chatcutapp @openclaw we planning on letting anybody use the app in the next month?...",
+      "time": "2026-02-12 21:30:13"
     }
   ],
   "market_intel": [
     {
       "ticker": "FSLY",
       "name": "Fastly",
-      "change": "+3900.0%",
-      "mentions": 40
+      "change": "+3700.0%",
+      "mentions": 38
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "change": "+3000.0%",
+      "mentions": 31
     },
     {
       "ticker": "ARR",
       "name": "ARMOUR Residential REIT",
       "change": "+2600.0%",
       "mentions": 27
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "change": "+2400.0%",
-      "mentions": 25
     }
   ],
-  "last_update": "2026-02-12 15:30:11"
+  "last_update": "2026-02-12 16:00:17"
 }
