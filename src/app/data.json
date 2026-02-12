@@ -78,18 +78,18 @@
       "updated": "13:04:57"
     },
     {
+      "id": "2026-02-12-launch-clawtrak.md",
+      "title": "2026-02-12-launch-clawtrak.md",
+      "agent": "** PIXEL, JARVIS, LOKI, FRIDAY",
+      "status": "IN PROGRESS",
+      "updated": "08:42:12"
+    },
+    {
       "id": "batch-001-ai-agent-workflows.md",
       "title": "Content Batch 001 - AI Agent Workflows",
       "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
       "status": "IN PROGRESS",
       "updated": "21:32:51"
-    },
-    {
-      "id": "2026-02-12-launch-neon-forge.md",
-      "title": "2026-02-12-launch-neon-forge.md",
-      "agent": "** PIXEL, JARVIS, LOKI, FRIDAY",
-      "status": "IN PROGRESS",
-      "updated": "06:12:23"
     },
     {
       "id": "2026-02-04-unbrowse-polymarket.md",
@@ -156,5 +156,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-12 08:28:11"
+  "last_update": "2026-02-12 08:42:51"
 }
