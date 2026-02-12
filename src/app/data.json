@@ -1,62 +1,6 @@
 {
   "tasks": [
     {
-      "id": "b9fb9624-682f-413d-86bb-77a29badbadd",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:1",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "23:49:08"
-    },
-    {
-      "id": "b135e1b6-14ba-443f-972d-480eb0843308",
-      "title": "Live Run: agent:main:cron:9928f803-f260-4b26-94cc-add874a19d61",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "9928f803-f260-4b26-94cc-add874a19d61",
-      "title": "Update MEMORY.md Heartbeat Task",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "batch-001-ai-agent-workflows.md",
-      "title": "Content Batch 001 - AI Agent Workflows",
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
-      "status": "IN PROGRESS",
-      "updated": "21:32:51"
-    },
-    {
-      "id": "1a5e8c2c-3f83-48c9-8de8-ddb7778614a7",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "21:03:09"
-    },
-    {
-      "id": "build-setup-kit.md",
-      "title": "Implement \"Setup as a Service\" Kit",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "21:03:05"
-    },
-    {
-      "id": "research-babyagi3-tools.md",
-      "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
-      "agent": "** DEVELOPER",
-      "status": "INBOX",
-      "updated": "20:49:45"
-    },
-    {
-      "id": "713eae4e-9d58-47f6-889e-8025ece5534d",
-      "title": "Agent Roundtable - Evening Debate",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "20:00:00"
-    },
-    {
       "id": "2026-02-09-nexus-alpha-terminal.md",
       "title": "Nexus Alpha Terminal (Project Magnet)",
       "agent": "** JARVIS | DEVELOPER | WRITER",
@@ -71,11 +15,11 @@
       "updated": "18:41:54"
     },
     {
-      "id": "2026-02-04-unbrowse-polymarket.md",
-      "title": "Implement Unbrowse Sensor for Polymarket",
-      "agent": "** JARVIS",
-      "status": "REVIEW",
-      "updated": "18:39:35"
+      "id": "research-babyagi3-tools.md",
+      "title": "Research BabyAGI 3 \"Self-Tool Creation\" Logic",
+      "agent": "** DEVELOPER",
+      "status": "INBOX",
+      "updated": "20:49:45"
     },
     {
       "id": "2026-02-08-substack-refactor.md",
@@ -85,53 +29,11 @@
       "updated": "18:29:18"
     },
     {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "17:00:00"
-    },
-    {
-      "id": "b5688e2b-df9b-4b98-b688-fb8794235d99",
-      "title": "Autonomous Sensing & Action",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "16:05:37"
-    },
-    {
-      "id": "6a6ef12e-a222-4b35-957c-e02da2fb2fab",
-      "title": "Agent Roundtable - Afternoon Debate",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "14:00:00"
-    },
-    {
-      "id": "2026-02-11-revenue-skills-build.md",
-      "title": "Build 5 Revenue-Critical Skills",
-      "agent": "** JARVIS",
-      "status": "IN PROGRESS",
-      "updated": "13:04:57"
-    },
-    {
-      "id": "2026-02-11-discord-community-bot.md",
-      "title": "Build AI Agent Community Discord Bot",
-      "agent": "** JARVIS (LEAD) | FRIDAY | NOVA",
-      "status": "IN PROGRESS",
-      "updated": "12:59:37"
-    },
-    {
-      "id": "2026-02-11-niche-content-site.md",
-      "title": "Launch SEO-Driven Niche Content Site",
-      "agent": "** FRIDAY (RESEARCH) | NOVA (SEO) | LOKI (WRITING) | ATHENA (EDITING) | JARVIS (INFRA)",
-      "status": "IN PROGRESS",
-      "updated": "12:59:35"
-    },
-    {
-      "id": "2026-02-11-agent-cost-analyzer.md",
-      "title": "Build AI Agent Cost Analyzer Tool",
-      "agent": "** JARVIS (LEAD) | ATLAS | NOVA | DESIGNER",
-      "status": "IN PROGRESS",
-      "updated": "12:59:23"
+      "id": "build-setup-kit.md",
+      "title": "Implement \"Setup as a Service\" Kit",
+      "agent": "** DEVELOPER",
+      "status": "INBOX",
+      "updated": "21:03:05"
     },
     {
       "id": "2026-02-11-openclaw-setup-kit.md",
@@ -141,6 +43,20 @@
       "updated": "12:59:07"
     },
     {
+      "id": "2026-02-11-discord-community-bot.md",
+      "title": "Build AI Agent Community Discord Bot",
+      "agent": "** JARVIS (LEAD) | FRIDAY | NOVA",
+      "status": "IN PROGRESS",
+      "updated": "12:59:37"
+    },
+    {
+      "id": "2026-02-11-agent-cost-analyzer.md",
+      "title": "Build AI Agent Cost Analyzer Tool",
+      "agent": "** JARVIS (LEAD) | ATLAS | NOVA | DESIGNER",
+      "status": "IN PROGRESS",
+      "updated": "12:59:23"
+    },
+    {
       "id": "2026-02-11-nexus-open-source.md",
       "title": "Open-Source Nexus Dashboard",
       "agent": "** JARVIS (LEAD) | DESIGNER | NOVA",
@@ -148,11 +64,18 @@
       "updated": "12:58:56"
     },
     {
-      "id": "f45bdcfb-1b44-4213-b800-5e78a3a24107",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:25",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "12:11:26"
+      "id": "2026-02-11-niche-content-site.md",
+      "title": "Launch SEO-Driven Niche Content Site",
+      "agent": "** FRIDAY (RESEARCH) | NOVA (SEO) | LOKI (WRITING) | ATHENA (EDITING) | JARVIS (INFRA)",
+      "status": "IN PROGRESS",
+      "updated": "12:59:35"
+    },
+    {
+      "id": "2026-02-11-revenue-skills-build.md",
+      "title": "Build 5 Revenue-Critical Skills",
+      "agent": "** JARVIS",
+      "status": "IN PROGRESS",
+      "updated": "13:04:57"
     },
     {
       "id": "2026-02-12-launch-clawtrak.md",
@@ -162,237 +85,18 @@
       "updated": "08:42:12"
     },
     {
-      "id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
-      "title": "Daily Self-Review (Config Drift Detection)",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "08:00:00"
-    },
-    {
-      "id": "275b4caa-9b0f-4737-958f-0116f0e11a46",
-      "title": "Agent Roundtable - Morning Debate",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "08:00:00"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Launch Clawtrak",
-      "last_worked": "2026-02-12 08:42",
+      "id": "batch-001-ai-agent-workflows.md",
+      "title": "Content Batch 001 - AI Agent Workflows",
+      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)",
       "status": "IN PROGRESS",
-      "mtime": 1770907332.801059,
-      "agent": "** PIXEL, JARVIS, LOKI, FRIDAY"
+      "updated": "21:32:51"
     },
     {
-      "name": "Revenue Skills Build",
-      "last_worked": "2026-02-11 13:04",
-      "status": "IN PROGRESS",
-      "mtime": 1770836697.5016077,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Discord Community Bot",
-      "last_worked": "2026-02-11 12:59",
-      "status": "IN PROGRESS",
-      "mtime": 1770836377.823902,
-      "agent": "** JARVIS (LEAD) | FRIDAY | NOVA"
-    },
-    {
-      "name": "Niche Content Site",
-      "last_worked": "2026-02-11 12:59",
-      "status": "IN PROGRESS",
-      "mtime": 1770836375.8224978,
-      "agent": "** FRIDAY (RESEARCH) | NOVA (SEO) | LOKI (WRITING) | ATHENA (EDITING) | JARVIS (INFRA)"
-    },
-    {
-      "name": "Agent Cost Analyzer",
-      "last_worked": "2026-02-11 12:59",
-      "status": "IN PROGRESS",
-      "mtime": 1770836363.6798027,
-      "agent": "** JARVIS (LEAD) | ATLAS | NOVA | DESIGNER"
-    },
-    {
-      "name": "Openclaw Setup Kit",
-      "last_worked": "2026-02-11 12:59",
-      "status": "IN PROGRESS",
-      "mtime": 1770836347.8911805,
-      "agent": "** JARVIS (LEAD) | LOKI | NOVA | SECURITY"
-    },
-    {
-      "name": "Nexus Open Source",
-      "last_worked": "2026-02-11 12:58",
-      "status": "IN PROGRESS",
-      "mtime": 1770836336.5004282,
-      "agent": "** JARVIS (LEAD) | DESIGNER | NOVA"
-    },
-    {
-      "name": "Nexus Alpha Terminal",
-      "last_worked": "2026-02-09 19:24",
-      "status": "INBOX",
-      "mtime": 1770686695.4544346,
-      "agent": "** JARVIS | DEVELOPER | WRITER"
-    },
-    {
-      "name": "Winnipeg Hockey Income Pilot",
-      "last_worked": "2026-02-09 19:07",
-      "status": "DONE",
-      "mtime": 1770685677.7727013,
-      "agent": "** GROWTH | DEVELOPER | RESEARCHER"
-    },
-    {
-      "name": "Substack Audit Security",
-      "last_worked": "2026-02-08 18:45",
-      "status": "DONE",
-      "mtime": 1770597904.2239,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Scalestream Voice Deployment",
-      "last_worked": "2026-02-08 18:42",
-      "status": "DONE",
-      "mtime": 1770597722.2809148,
-      "agent": "** VOICE | COORDINATOR"
-    },
-    {
-      "name": "Substack Staging",
-      "last_worked": "2026-02-08 18:41",
-      "status": "INBOX",
-      "mtime": 1770597714.843278,
-      "agent": "** DEVELOPER | WRITER"
-    },
-    {
-      "name": "Substack Refactor",
-      "last_worked": "2026-02-08 18:29",
-      "status": "INBOX",
-      "mtime": 1770596958.856403,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Scalestream Swarm",
-      "last_worked": "2026-02-08 18:29",
-      "status": "DONE",
-      "mtime": 1770596949.794849,
-      "agent": "** PIXEL (ORCHESTRATOR)"
-    },
-    {
-      "name": "Batch 001 Editing",
-      "last_worked": "2026-02-08 08:36",
-      "status": "DONE",
-      "mtime": 1770561377.3946466,
-      "agent": "** ATHENA"
-    },
-    {
-      "name": "Batch 001 Ai Agent Workflows",
-      "last_worked": "2026-02-07 21:32",
-      "status": "IN PROGRESS",
-      "mtime": 1770521571.4845068,
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)"
-    },
-    {
-      "name": "Build Setup Kit",
-      "last_worked": "2026-02-07 21:03",
-      "status": "INBOX",
-      "mtime": 1770519785.0994265,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Research Babyagi3 Tools",
-      "last_worked": "2026-02-07 20:49",
-      "status": "INBOX",
-      "mtime": 1770518985.1234448,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Substack Clawphone",
-      "last_worked": "2026-02-07 18:37",
-      "status": "DONE",
-      "mtime": 1770511030.0210912,
-      "agent": "** WRITER"
-    },
-    {
-      "name": "Substack Automator",
-      "last_worked": "2026-02-07 18:37",
-      "status": "DONE",
-      "mtime": 1770511026.7598763,
-      "agent": "** JARVIS | LOKI"
-    },
-    {
-      "name": "Voice Outreach",
-      "last_worked": "2026-02-07 10:32",
-      "status": "DONE",
-      "mtime": 1770481965.5165832,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Monetize The Forge",
-      "last_worked": "2026-02-07 08:51",
-      "status": "DONE",
-      "mtime": 1770475915.0027556,
-      "agent": "** GROWTH"
-    },
-    {
-      "name": "Sentinel Sandbox",
-      "last_worked": "2026-02-07 08:40",
-      "status": "DONE",
-      "mtime": 1770475248.105718,
-      "agent": "** SENTINEL"
-    },
-    {
-      "name": "Originality Moat",
-      "last_worked": "2026-02-05 19:28",
-      "status": "DONE",
-      "mtime": 1770341331.1735773,
-      "agent": "** FRIDAY | ATHENA"
-    },
-    {
-      "name": "Unbrowse Polymarket",
-      "last_worked": "2026-02-05 18:39",
+      "id": "2026-02-04-unbrowse-polymarket.md",
+      "title": "Implement Unbrowse Sensor for Polymarket",
+      "agent": "** JARVIS",
       "status": "REVIEW",
-      "mtime": 1770338375.864991,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Sponsor Deck",
-      "last_worked": "2026-02-04 21:54",
-      "status": "DONE",
-      "mtime": 1770263651.027046,
-      "agent": "** HERMES"
-    },
-    {
-      "name": "Sentinel Scanner",
-      "last_worked": "2026-02-04 19:16",
-      "status": "DONE",
-      "mtime": 1770254189.334754,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Kumo Audit",
-      "last_worked": "2026-02-04 15:05",
-      "status": "DONE",
-      "mtime": 1770239137.106894,
-      "agent": "** FRIDAY"
-    },
-    {
-      "name": "Agent Discourse Tracker",
-      "last_worked": "2026-02-04 13:26",
-      "status": "DONE",
-      "mtime": 1770233206.6753876,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Agent Infrastructure Research Digital",
-      "last_worked": "2026-02-04 07:47",
-      "status": "DONE",
-      "mtime": 1770212866.3082323,
-      "agent": "** FRIDAY | HERMES"
-    },
-    {
-      "name": "Niche Research",
-      "last_worked": "2026-02-03 13:01",
-      "status": "DONE",
-      "mtime": 1770145262.8080294,
-      "agent": "** RESEARCHER"
+      "updated": "18:39:35"
     }
   ],
   "alpha": [
@@ -413,58 +117,44 @@
     {
       "rank": 1,
       "source": "X",
-      "handle": "santisiri",
-      "title": "@LeoTroiano7 @openclaw los fees van directo a una address que queda asociada a tu cuenta de twitter....",
-      "time": "2026-02-12 21:30:13"
+      "handle": "ai67x_fun",
+      "title": "@twistartups Oh for sure! I've been hearing a lot of buzz about OpenClaw. What's one feature that's ...",
+      "time": "2026-02-12 22:00:18"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "whateverdotai",
-      "title": "Desktop agents: Solved problem. @openclaw #ComputerUse, @operator work.\n\nMobile agents: Unsolved inf...",
-      "time": "2026-02-12 21:30:13"
+      "handle": "TheDefiNomad_",
+      "title": "@0xstackzz @openclaw It's going to be an insane couple of months...",
+      "time": "2026-02-12 22:00:18"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "jos3sha",
-      "title": "Running OpenClaw...",
-      "time": "2026-02-12 21:30:13"
+      "handle": "kayacancode",
+      "title": "@waynesutton @Rasmic @openclaw wayne you know anyone with some cool openclaw demos? https://t.co/vB4...",
+      "time": "2026-02-12 22:00:18"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "onusoz",
-      "title": "don't buy mac mini. give your @openclaw a gpu https://t.co/NN7ndkt93K...",
-      "time": "2026-02-12 21:30:13"
+      "handle": "glass_bit",
+      "title": "Building AI agents got way easier with @OpenClaw in @cursor_ai. Its way easier now - no more context...",
+      "time": "2026-02-12 22:00:18"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "januarycomputer",
-      "title": "@chatcutapp @openclaw we planning on letting anybody use the app in the next month?...",
-      "time": "2026-02-12 21:30:13"
+      "handle": "dan_uptop",
+      "title": "to whoever deployed their team of openclaw subagents to hack my car insurance\u2026 there may be a way ca...",
+      "time": "2026-02-12 22:00:18"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "FSLY",
-      "name": "Fastly",
-      "change": "+3700.0%",
-      "mentions": 38
-    },
-    {
-      "ticker": "DKNG",
-      "name": "DraftKings",
-      "change": "+3000.0%",
-      "mentions": 31
-    },
-    {
-      "ticker": "ARR",
-      "name": "ARMOUR Residential REIT",
-      "change": "+2600.0%",
-      "mentions": 27
-    }
-  ],
-  "last_update": "2026-02-12 16:00:17"
+  "finance": {
+    "walletAddress": "0xD740df98...35cd",
+    "activeFloat": "$33.28 USDC",
+    "dailyYield": "$0.00",
+    "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
+  },
+  "last_update": "2026-02-12 16:35:51"
 }
