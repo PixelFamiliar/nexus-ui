@@ -94,13 +94,6 @@
   ],
   "alpha": [
     {
-      "rank": "ALPHA",
-      "source": "ARBITRAGE",
-      "handle": "QUANT",
-      "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Wed Feb 11 18:59:55 CST 2026"
-    },
-    {
       "rank": 1,
       "source": "X",
       "handle": "ThomasGrayX",
@@ -142,5 +135,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-11 20:06:22"
+  "last_update": "2026-02-11 20:15:05"
 }
