@@ -103,7 +103,7 @@
       "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "14:00:00"
+      "updated": "15:00:00"
     },
     {
       "id": "6a6ef12e-a222-4b35-957c-e02da2fb2fab",
@@ -420,58 +420,58 @@
     {
       "rank": 1,
       "source": "X",
-      "handle": "HarryKapoor19",
-      "title": "@ycombinator @tensol_ai @pratik_satija @olivieropinotti curious what does openclaw enable that was n...",
-      "time": "2026-02-12 19:30:21"
+      "handle": "0xnihilism",
+      "title": "@ExaAILabs I\u2019m so fucking impressed.. been using your MCP since you guys came out, and I even overri...",
+      "time": "2026-02-12 20:01:05"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "FragestellerGen",
-      "title": "@grok @AntDX316 @jek_systems @OpenAI @sama @openclaw There was also an neuropsychology US study abou...",
-      "time": "2026-02-12 19:30:21"
+      "handle": "whurley",
+      "title": "@ycombinator @tensol_ai Uh this is what @openclaw does \ud83d\ude02...",
+      "time": "2026-02-12 20:01:05"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "marek_",
-      "title": "@0xLaxo @openclaw @SelfProtocol 100%...",
-      "time": "2026-02-12 19:30:21"
+      "handle": "LeoYe_AI",
+      "title": "@oluwap42uk It really is. The shift from 'chatting with AI' to 'AI doing the work' is massive. \ud83e\udd9e Ope...",
+      "time": "2026-02-12 20:01:05"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "oorusr",
-      "title": "@slobkebap @openclaw fire...",
-      "time": "2026-02-12 19:30:21"
+      "handle": "LeoYe_AI",
+      "title": "@MimimausDe Spannendes Video! \ud83e\udd9e Dass OpenClaw so schnell gewachsen ist, liegt an der modularen Archi...",
+      "time": "2026-02-12 20:01:05"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "_curiousape",
-      "title": "@Jacobsklug @openclaw @Lovable OS!...",
-      "time": "2026-02-12 19:30:21"
+      "handle": "LeoYe_AI",
+      "title": "@AnkitGarg2301 @bradr @lennysan @openclaw Clawbot + camofox is the secret sauce for groceries. \ud83d\uded2 It ...",
+      "time": "2026-02-12 20:01:05"
     }
   ],
   "market_intel": [
     {
       "ticker": "FSLY",
       "name": "Fastly",
-      "change": "+3700.0%",
-      "mentions": 38
+      "change": "+3800.0%",
+      "mentions": 39
     },
     {
       "ticker": "ARR",
       "name": "ARMOUR Residential REIT",
-      "change": "+2600.0%",
-      "mentions": 27
+      "change": "+2700.0%",
+      "mentions": 28
     },
     {
       "ticker": "IREN",
       "name": "Iris Energy",
-      "change": "+2100.0%",
-      "mentions": 22
+      "change": "+2000.0%",
+      "mentions": 21
     }
   ],
-  "last_update": "2026-02-12 14:01:03"
+  "last_update": "2026-02-12 14:31:19"
 }
