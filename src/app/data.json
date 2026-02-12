@@ -92,18 +92,18 @@
       "updated": "16:05:37"
     },
     {
-      "id": "4bbe7f2b-f3bc-48ef-8467-2ac4779b5c3d",
-      "title": "4pm Roadblock Rollup",
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
       "updated": "16:00:00"
     },
     {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
+      "id": "4bbe7f2b-f3bc-48ef-8467-2ac4779b5c3d",
+      "title": "4pm Roadblock Rollup",
       "agent": "SENTINEL",
       "status": "SCHEDULED",
-      "updated": "15:00:00"
+      "updated": "16:00:00"
     },
     {
       "id": "6a6ef12e-a222-4b35-957c-e02da2fb2fab",
@@ -420,58 +420,58 @@
     {
       "rank": 1,
       "source": "X",
-      "handle": "0xnihilism",
-      "title": "@ExaAILabs I\u2019m so fucking impressed.. been using your MCP since you guys came out, and I even overri...",
-      "time": "2026-02-12 20:01:05"
+      "handle": "shelby_d_thomas",
+      "title": "@chatcutapp @openclaw What\u2019s your opinion on if videos should have Ai watermark if Seedance or other...",
+      "time": "2026-02-12 20:31:21"
     },
     {
       "rank": 2,
       "source": "X",
-      "handle": "whurley",
-      "title": "@ycombinator @tensol_ai Uh this is what @openclaw does \ud83d\ude02...",
-      "time": "2026-02-12 20:01:05"
+      "handle": "CluelessFred",
+      "title": "the openclaw saas wars are heating up and im here for it \n\nhttps://t.co/SH4vLRbdxH...",
+      "time": "2026-02-12 20:31:21"
     },
     {
       "rank": 3,
       "source": "X",
-      "handle": "LeoYe_AI",
-      "title": "@oluwap42uk It really is. The shift from 'chatting with AI' to 'AI doing the work' is massive. \ud83e\udd9e Ope...",
-      "time": "2026-02-12 20:01:05"
+      "handle": "lyra_fey",
+      "title": "@lyragent @clanker_world @openclaw Lyrabot now on clanker\n\n@clanker_world deploy token lyrabot ticke...",
+      "time": "2026-02-12 20:31:21"
     },
     {
       "rank": 4,
       "source": "X",
-      "handle": "LeoYe_AI",
-      "title": "@MimimausDe Spannendes Video! \ud83e\udd9e Dass OpenClaw so schnell gewachsen ist, liegt an der modularen Archi...",
-      "time": "2026-02-12 20:01:05"
+      "handle": "hasamba",
+      "title": "Moltbook, an AI-only social site for OpenClaw agents, is dominated by spam and scams; a database bre...",
+      "time": "2026-02-12 20:31:21"
     },
     {
       "rank": 5,
       "source": "X",
-      "handle": "LeoYe_AI",
-      "title": "@AnkitGarg2301 @bradr @lennysan @openclaw Clawbot + camofox is the secret sauce for groceries. \ud83d\uded2 It ...",
-      "time": "2026-02-12 20:01:05"
+      "handle": "twistartups",
+      "title": "Watch @Jason make 2 investments live on TWiST!\n\nWe\u2019ve been Clawd-shotted here at TWiST! We\u2019re going ...",
+      "time": "2026-02-12 20:31:21"
     }
   ],
   "market_intel": [
     {
       "ticker": "FSLY",
       "name": "Fastly",
-      "change": "+3800.0%",
-      "mentions": 39
+      "change": "+3900.0%",
+      "mentions": 40
     },
     {
       "ticker": "ARR",
       "name": "ARMOUR Residential REIT",
-      "change": "+2700.0%",
-      "mentions": 28
+      "change": "+2600.0%",
+      "mentions": 27
     },
     {
-      "ticker": "IREN",
-      "name": "Iris Energy",
-      "change": "+2000.0%",
-      "mentions": 21
+      "ticker": "DKNG",
+      "name": "DraftKings",
+      "change": "+2400.0%",
+      "mentions": 25
     }
   ],
-  "last_update": "2026-02-12 14:31:19"
+  "last_update": "2026-02-12 15:30:11"
 }
