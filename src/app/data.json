@@ -99,6 +99,13 @@
       "updated": "16:00:00"
     },
     {
+      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
+      "title": "Hourly Progress Update",
+      "agent": "SENTINEL",
+      "status": "SCHEDULED",
+      "updated": "14:00:00"
+    },
+    {
       "id": "6a6ef12e-a222-4b35-957c-e02da2fb2fab",
       "title": "Agent Roundtable - Afternoon Debate",
       "agent": "SENTINEL",
@@ -111,13 +118,6 @@
       "agent": "** JARVIS",
       "status": "IN PROGRESS",
       "updated": "13:04:57"
-    },
-    {
-      "id": "7fb810a3-2e9e-466d-a107-160e2d1b70dc",
-      "title": "Hourly Progress Update",
-      "agent": "SENTINEL",
-      "status": "SCHEDULED",
-      "updated": "13:00:00"
     },
     {
       "id": "2026-02-11-discord-community-bot.md",
@@ -457,8 +457,8 @@
     {
       "ticker": "FSLY",
       "name": "Fastly",
-      "change": "+2900.0%",
-      "mentions": 30
+      "change": "+3100.0%",
+      "mentions": 32
     },
     {
       "ticker": "ARR",
@@ -467,11 +467,11 @@
       "mentions": 27
     },
     {
-      "ticker": "DOW",
-      "name": "Dow",
-      "change": "+1385.7142857142858%",
-      "mentions": 104
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "change": "+1325.0%",
+      "mentions": 57
     }
   ],
-  "last_update": "2026-02-12 12:36:05"
+  "last_update": "2026-02-12 13:30:17"
 }
