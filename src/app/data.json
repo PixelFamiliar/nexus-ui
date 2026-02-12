@@ -94,6 +94,20 @@
   ],
   "alpha": [
     {
+      "rank": "ALPHA",
+      "source": "ARBITRAGE",
+      "handle": "QUANT",
+      "title": "Warsh Confirmation Confidence Gap: 12.0% Spread",
+      "time": "Wed Feb 11 22:00:00 CST 2026"
+    },
+    {
+      "rank": "ALPHA",
+      "source": "ARBITRAGE",
+      "handle": "QUANT",
+      "title": "Uranium Momentum Play ($EU): 10.0% Spread",
+      "time": "Wed Feb 11 22:00:00 CST 2026"
+    },
+    {
       "rank": 1,
       "source": "X",
       "handle": "ThomasGrayX",
@@ -135,5 +149,5 @@
     "dailyYield": "$0.00",
     "arbitrageOpportunity": "6.0% Spread (Fed Rates)"
   },
-  "last_update": "2026-02-11 21:40:04"
+  "last_update": "2026-02-11 22:01:35"
 }
