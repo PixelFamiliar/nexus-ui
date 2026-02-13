@@ -1,0 +1,14 @@
+{
+  "query": "Fed",
+  "opportunities": [
+    {
+      "event": "Shadow Alpha: Q1 Rate Divergence",
+      "polymarket_price": 0.62,
+      "kalshi_price": 0.68,
+      "spread": 0.06,
+      "timestamp": "Thu Feb 12 20:15:56 CST 2026",
+      "type": "Shadow"
+    }
+  ],
+  "status": "Alpha Detected"
+}

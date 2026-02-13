@@ -1,125 +1,183 @@
 "use client";
 
-import React, { useState } from 'react';
-import ActivityFeed from '../../components/ActivityFeed';
-import CalendarView from '../../components/CalendarView';
-import AgentFleet from '../../components/AgentFleet';
+import React, { useState, useEffect } from 'react';
 import AgentOfficeSim from '../../components/AgentOfficeSim';
+import ProjectBoard from '../../components/ProjectBoard';
+import ProtocolHeatmap from '../../components/ProtocolHeatmap';
+import WhaleTracker from '../../components/WhaleTracker';
 import GlobalSearch from '../../components/GlobalSearch';
-import WhopLogin from '../../components/WhopLogin';
-import { 
-  LayoutDashboard, 
-  Terminal, 
-  Calendar, 
-  Settings,
-  Shield,
-  Zap,
+import NeuralStandup from '../../components/NeuralStandup';
+import SimpleLogin from '../../components/SimpleLogin';
+import {
   Cpu,
-  Database,
-  Globe,
-  Radio,
-  BarChart3,
-  Layers,
-  Search
+  Terminal,
+  LayoutDashboard,
+  Lock,
+  Eye,
+  MessageSquareShare
 } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
 import '../globals.css';
 
 export default function MissionControl() {
-  const [activeTab, setActiveTab] = useState('overview');
+  const [showStandup, setShowStandup] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const checkAuth = () => {
+      const cookies = document.cookie.split(';');
+      const hasToken = cookies.some(c => c.trim().startsWith('nexus_session='));
+      setIsAuthenticated(hasToken);
+    };
+    checkAuth();
+  }, []);
+
+  if (isAuthenticated === null) {
+    return (
+      <div style={{ minHeight: '100vh', backgroundColor: '#F0EBE0', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '14px', color: '#888' }}>
+        Loading...
+      </div>
+    );
+  }
+
+  if (!isAuthenticated) {
+    return <SimpleLogin />;
+  }
 
   return (
-    <main className="relative min-h-screen bg-[#050505] text-zinc-100 font-sans selection:bg-blue-500/30 overflow-hidden">
-      {/* Background Layering */}
-      <div className="absolute inset-0 bg-mesh pointer-events-none opacity-40" />
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none" />
-      
-      {/* Container */}
-      <div className="relative z-10 flex h-screen overflow-hidden">
-        
-        {/* Premium Sidebar */}
-        <aside className="w-[100px] shrink-0 flex flex-col items-center py-10 border-r border-white/[0.05] bg-black/20 backdrop-blur-md">
-          <div className="w-14 h-14 rounded-3xl premium-gradient p-0.5 shadow-2xl shadow-blue-500/20 mb-12 flex items-center justify-center">
-            <div className="w-full h-full bg-black rounded-[1.4rem] flex items-center justify-center">
-              <Cpu className="w-7 h-7 text-white" />
+    <main style={{ minHeight: '100vh', backgroundColor: '#F0EBE0', fontFamily: "'Inter', system-ui, sans-serif", color: '#333', overflow: 'hidden' }}>
+
+      {/* Neural Standup Overlay */}
+      <AnimatePresence>
+        {showStandup && (
+          <div
+            onClick={() => setShowStandup(false)}
+            style={{ position: 'fixed', inset: 0, zIndex: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(4px)', padding: '32px', cursor: 'pointer' }}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              style={{ width: '100%', maxWidth: '640px', position: 'relative', cursor: 'default' }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={() => setShowStandup(false)}
+                style={{ position: 'absolute', top: -12, right: -12, zIndex: 10, width: '28px', height: '28px', borderRadius: '50%', border: '2px solid #CCC', backgroundColor: '#FFF', fontSize: '14px', fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#666', boxShadow: '0 2px 4px rgba(0,0,0,0.15)' }}
+              >×</button>
+              <NeuralStandup />
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      <div style={{ display: 'flex', height: '100vh', overflow: 'hidden' }}>
+
+        {/* Sidebar */}
+        <aside style={{
+          width: '60px', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center',
+          padding: '16px 0', borderRight: '2px solid #D8D0C0', backgroundColor: '#E8E0D0',
+        }}>
+          <div style={{ marginBottom: '24px' }}>
+            <div style={{
+              width: '36px', height: '36px', borderRadius: '10px',
+              backgroundColor: '#4A8B4A', border: '2px solid #3A7B3A',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              boxShadow: '0 2px 0 #3A7B3A', cursor: 'pointer',
+            }}>
+              <Cpu className="w-4 h-4" style={{ color: '#FFF' }} />
             </div>
           </div>
-          
-          <nav className="flex flex-col gap-6">
-            <SidebarAction icon={<LayoutDashboard />} active={activeTab === 'overview'} onClick={() => setActiveTab('overview')} />
-            <SidebarAction icon={<Layers />} active={activeTab === 'execution'} onClick={() => setActiveTab('execution')} />
-            <SidebarAction icon={<Calendar />} active={activeTab === 'schedule'} onClick={() => setActiveTab('schedule')} />
-            <div className="h-px w-6 bg-white/5 my-2" />
-            <SidebarAction icon={<BarChart3 />} active={activeTab === 'analytics'} onClick={() => setActiveTab('analytics')} />
-            <SidebarAction icon={<Shield />} active={activeTab === 'security'} onClick={() => setActiveTab('security')} />
-            <SidebarAction icon={<Zap />} active={activeTab === 'alpha'} onClick={() => setActiveTab('alpha')} />
+
+          <nav style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
+            <a href="/" style={{ textDecoration: 'none' }}>
+              <SidebarIcon icon={<LayoutDashboard />} label="Dashboard" />
+            </a>
+            <SidebarIcon
+              icon={<MessageSquareShare />}
+              onClick={() => setShowStandup(true)}
+              label="Standup"
+            />
+            <SidebarIcon icon={<Terminal />} active label="Mission Control" />
           </nav>
 
-          <div className="mt-auto">
-            <SidebarAction icon={<Settings />} onClick={() => setActiveTab('settings')} />
+          <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center' }}>
+            <SidebarIcon
+              icon={<Lock />}
+              onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); window.location.reload(); }}
+              label="Logout"
+            />
           </div>
         </aside>
 
-        {/* Main Workspace */}
-        <div className="flex-1 flex flex-col min-w-0">
-          
-          {/* Top Bar */}
-          <header className="h-24 shrink-0 flex items-center justify-between px-12 border-b border-white/[0.05]">
-            <div className="flex items-center gap-10">
-              <div>
-                <h1 className="text-2xl font-black text-white tracking-tight flex items-center gap-3">
-                  Control <span className="text-blue-500 italic">Center</span>
-                </h1>
-                <div className="flex items-center gap-2 mt-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)] animate-pulse" />
-                  <span className="text-[10px] font-black text-zinc-500 uppercase tracking-[0.2em]">Node_Status: Active</span>
-                </div>
+        {/* Workspace */}
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
+
+          {/* Header */}
+          <header style={{
+            height: '52px', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+            padding: '0 20px', borderBottom: '2px solid #D8D0C0', backgroundColor: '#E8E0D0',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+              <h1 style={{ fontSize: '14px', fontWeight: 800, color: '#444', letterSpacing: '1px' }}>
+                🎯 Mission Control
+              </h1>
+              <div style={{ width: '1px', height: '20px', backgroundColor: '#D0C8B8' }} />
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '12px', color: '#888' }}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#4A8B4A' }} />
+                  Fortress Node
+                </span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <Eye style={{ width: '12px', height: '12px', color: '#AAA' }} />
+                  Private
+                </span>
               </div>
-              
-              <div className="h-10 w-px bg-white/10" />
-              
-              <GlobalSearch />
             </div>
 
-            <div className="flex items-center gap-10">
-              <div className="hidden xl:flex items-center gap-12">
-                <TopMetric label="Neural_Load" value="12%" />
-                <TopMetric label="Disk_Array" value="Synced" />
-                <TopMetric label="Latency" value="0.4ms" />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <button
+                onClick={() => setShowStandup(true)}
+                style={{
+                  padding: '6px 12px', borderRadius: '8px', border: '2px solid #4A8B4A',
+                  backgroundColor: '#4A8B4A', color: '#FFF', fontSize: '11px',
+                  fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px',
+                }}
+              >
+                <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#FFF' }} />
+                Standup
+              </button>
+              <GlobalSearch />
+              <div style={{
+                width: '32px', height: '32px', borderRadius: '8px', border: '2px solid #D0C8B8',
+                overflow: 'hidden', backgroundColor: '#FFF',
+              }}>
+                <img src="/avatars/pixel_cute.png" alt="User" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <WhopLogin />
             </div>
           </header>
 
-          {/* Scrolling Stage */}
-          <div className="flex-1 overflow-hidden p-10 flex flex-col gap-10">
-            
-            {/* High-Impact Stat Strip */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 shrink-0">
-              <PremiumStatCard label="Total_Execution" value="284,192" trend="+12k" color="blue" />
-              <PremiumStatCard label="Uptime_Protocol" value="99.99%" trend="Stable" color="emerald" />
-              <PremiumStatCard label="Compute_Cycle" value="4.2 PFlops" trend="+0.4" color="purple" />
-              <PremiumStatCard label="Context_Window" value="2.1M" trend="Deep" color="indigo" />
+          {/* Main Stage */}
+          <div style={{ flex: 1, padding: '12px', display: 'flex', gap: '12px', minHeight: 0, overflow: 'hidden' }}>
+
+            {/* Left: Project Board */}
+            <div style={{
+              width: '400px', flexShrink: 0, height: '100%', display: 'flex', flexDirection: 'column',
+              backgroundColor: '#FFF', border: '2px solid #D8D0C0', borderRadius: '12px',
+              overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+            }}>
+              <ProjectBoard />
             </div>
 
-            {/* Content Display */}
-            <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-10 min-h-0">
-              
-              {/* Agent Fleet (Cards) */}
-              <div className="lg:col-span-3 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm">
-                <AgentFleet />
-              </div>
-
-              {/* Agent HQ (Spatial View) */}
-              <div className="lg:col-span-6 h-full flex flex-col min-h-0 bg-black/20 rounded-[2.5rem] border border-white/5 p-8 backdrop-blur-sm shadow-2xl shadow-blue-500/5">
-                <AgentOfficeSim />
-              </div>
-
-              {/* Activity Feed Container */}
-              <div className="lg:col-span-3 h-full flex flex-col min-h-0">
-                <ActivityFeed />
-              </div>
-
+            {/* Right: Smallville */}
+            <div style={{
+              flex: 1, height: '100%', display: 'flex', flexDirection: 'column',
+              border: '2px solid #D8D0C0', borderRadius: '12px',
+              overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+            }}>
+              <AgentOfficeSim />
             </div>
+
           </div>
         </div>
       </div>
@@ -127,52 +185,44 @@ export default function MissionControl() {
   );
 }
 
-function SidebarAction({ icon, active = false, onClick }: { icon: React.ReactElement, active?: boolean, onClick?: () => void }) {
+function SidebarIcon({ icon, active = false, onClick, label }: { icon: React.ReactNode; active?: boolean; onClick?: () => void; label?: string }) {
   return (
-    <button 
+    <button
       onClick={onClick}
-      className={`group relative w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-500 ${
-        active 
-          ? 'bg-blue-600/10 text-blue-400 border border-blue-500/30 shadow-lg shadow-blue-500/10' 
-          : 'text-zinc-600 hover:text-white hover:bg-white/[0.03] border border-transparent hover:border-white/10'
-      }`}
+      style={{
+        padding: '8px', borderRadius: '8px', cursor: 'pointer', position: 'relative',
+        backgroundColor: active ? '#4A8B4A' : 'transparent',
+        color: active ? '#FFF' : '#888',
+        border: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center',
+        transition: 'all 0.15s',
+      }}
+      className="group"
+      onMouseEnter={e => {
+        if (!active) {
+          (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#D8D0C0';
+          (e.currentTarget as HTMLButtonElement).style.color = '#555';
+        }
+      }}
+      onMouseLeave={e => {
+        if (!active) {
+          (e.currentTarget as HTMLButtonElement).style.backgroundColor = 'transparent';
+          (e.currentTarget as HTMLButtonElement).style.color = '#888';
+        }
+      }}
     >
-      {active && <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1.5 h-8 bg-blue-500 rounded-full shadow-[0_0_15px_#3b82f6]" />}
-      {React.cloneElement(icon, { className: "w-6 h-6 transition-transform group-hover:scale-110" })}
-    </button>
-  );
-}
-
-function TopMetric({ label, value }: { label: string, value: string }) {
-  return (
-    <div className="flex flex-col items-end gap-0.5">
-      <span className="text-[9px] font-black text-zinc-600 uppercase tracking-widest leading-none">{label}</span>
-      <span className="text-xs font-bold text-zinc-300 tabular-nums">{value}</span>
-    </div>
-  );
-}
-
-function PremiumStatCard({ label, value, trend, color }: { label: string, value: string, trend: string, color: string }) {
-  const colors: Record<string, string> = {
-    blue: "from-blue-500/20 border-blue-500/20 text-blue-400",
-    emerald: "from-emerald-500/20 border-emerald-500/20 text-emerald-400",
-    purple: "from-purple-500/20 border-purple-500/20 text-purple-400",
-    indigo: "from-indigo-500/20 border-indigo-500/20 text-indigo-400"
-  };
-
-  return (
-    <div className={`relative glass-panel rounded-[2.5rem] p-8 overflow-hidden group hover:-translate-y-2 transition-all duration-500`}>
-      <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${colors[color]} blur-[60px] opacity-20 group-hover:opacity-40 transition-opacity`} />
-      
-      <div className="relative z-10">
-        <div className="flex items-center justify-between mb-4">
-          <span className="text-[10px] font-black text-zinc-500 uppercase tracking-[0.2em]">{label}</span>
-          <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full bg-black/40 border border-white/5 ${trend.startsWith('+') ? 'text-emerald-400' : 'text-zinc-500'}`}>
-            {trend}
-          </span>
+      {React.isValidElement(icon) ? React.cloneElement(icon as React.ReactElement<any>, { size: 18 }) : icon}
+      {label && (
+        <div style={{
+          position: 'absolute', left: '100%', marginLeft: '8px', top: '50%', transform: 'translateY(-50%)',
+          padding: '4px 8px', backgroundColor: '#333', color: '#FFF', borderRadius: '4px',
+          fontSize: '11px', fontWeight: 600, whiteSpace: 'nowrap',
+          opacity: 0, pointerEvents: 'none', zIndex: 50, transition: 'opacity 0.2s',
+        }}
+          className="group-hover:!opacity-100"
+        >
+          {label}
         </div>
-        <div className="text-3xl font-mono font-black text-white tracking-tight">{value}</div>
-      </div>
-    </div>
+      )}
+    </button>
   );
 }

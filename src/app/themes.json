@@ -1,0 +1,56 @@
+{
+  "fortress": {
+    "id": "fortress",
+    "name": "The Fortress",
+    "background": "bg-[#020202]",
+    "atmosphere": "bg-gradient-to-b from-blue-950/5 via-transparent to-purple-950/5",
+    "floor": "bg-blueprint opacity-40",
+    "gridColor": "border-blue-500/10",
+    "zoneLabel": "bg-black border-white/5 text-zinc-600",
+    "accentColor": "blue-500",
+    "furniture": {
+      "workstation": "bg-zinc-900/80 border-white/5 shadow-2xl backdrop-blur-sm",
+      "monitor": "bg-black border-blue-500/20 shadow-[0_0_20px_rgba(59,130,246,0.1)]",
+      "monitorIcon": "text-blue-500/20",
+      "neuralCore": "bg-zinc-900/30 border-white/5",
+      "organicModule": "bg-emerald-900/20 border-emerald-500/10",
+      "coolant": "bg-blue-900/10 border-blue-500/10"
+    }
+  },
+  "office": {
+    "id": "office",
+    "name": "The Office",
+    "background": "bg-[#fafafa]",
+    "atmosphere": "bg-gradient-to-b from-zinc-200/20 via-transparent to-zinc-100/20",
+    "floor": "bg-tiled-floor opacity-5",
+    "gridColor": "border-zinc-300",
+    "zoneLabel": "bg-white border-zinc-200 text-zinc-500",
+    "accentColor": "zinc-500",
+    "furniture": {
+      "workstation": "bg-white/80 border-zinc-200 shadow-lg backdrop-blur-md",
+      "monitor": "bg-zinc-100 border-zinc-300 shadow-sm",
+      "monitorIcon": "text-zinc-400",
+      "neuralCore": "bg-zinc-50 border-zinc-200",
+      "organicModule": "bg-green-100 border-green-200",
+      "coolant": "bg-zinc-100 border-zinc-200"
+    }
+  },
+  "lab": {
+    "id": "lab",
+    "name": "The Lab",
+    "background": "bg-[#1a1a1a]",
+    "atmosphere": "bg-gradient-to-b from-red-950/5 via-transparent to-zinc-900/5",
+    "floor": "bg-blueprint opacity-10 saturate-[0.5] hue-rotate-[320deg]",
+    "gridColor": "border-red-500/10",
+    "zoneLabel": "bg-[#111] border-red-950/30 text-red-900/50",
+    "accentColor": "red-600",
+    "furniture": {
+      "workstation": "bg-[#222]/90 border-red-950/30 shadow-2xl shadow-red-900/10",
+      "monitor": "bg-[#050505] border-red-500/20",
+      "monitorIcon": "text-red-500/30",
+      "neuralCore": "bg-[#111] border-red-500/10",
+      "organicModule": "bg-red-950/10 border-red-500/10",
+      "coolant": "bg-red-950/10 border-red-500/10"
+    }
+  }
+}

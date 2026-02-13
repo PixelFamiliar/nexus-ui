@@ -1,4 +1,6 @@
 import { NextResponse } from 'next/server';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET() {
   const whales = [
@@ -18,4 +20,25 @@ export async function GET() {
   ];
 
   return NextResponse.json({ whales, protocols });
+}
+
+export async function POST(request: Request) {
+  try {
+    const body = await request.json();
+    const { environment } = body;
+
+    if (!environment) {
+      return NextResponse.json({ error: 'Environment is required' }, { status: 400 });
+    }
+
+    const dataPath = path.join(process.cwd(), 'src/app/data.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    data.environment = environment;
+    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+
+    return NextResponse.json({ success: true, environment });
+  } catch (error) {
+    console.error('Failed to update environment:', error);
+    return NextResponse.json({ error: 'Failed to update environment' }, { status: 500 });
+  }
 }

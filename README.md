@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nexus Dashboard - Personal Command Center
 
-## Getting Started
+Your personal AI agent monitoring and control dashboard.
 
-First, run the development server:
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Set Up Authentication
+
+Generate a password hash for your dashboard:
+
+```bash
+node scripts/generate-password-hash.js
+```
+
+This will prompt you for a password and output a bcrypt hash.
+
+### 3. Configure Environment
+
+Create or update `.env.local`:
+
+```bash
+# Nexus Password Authentication
+NEXUS_PASSWORD_HASH=<your-hash-from-step-2>
+
+# Session secret (generate with: openssl rand -base64 32)
+SESSION_SECRET=<your-random-secret>
+```
+
+### 4. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The dashboard uses simple password-based authentication:
+- Password is verified against a bcrypt hash stored in `.env.local`
+- Session is maintained via HTTP-only cookies
+- **Never commit `.env.local` to version control**
 
-## Learn More
+## 🎯 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Project Board** - Monitor tasks across your agent squad
+- **3D Isometric Agent Grid** - Visualize agent positions and activity
+- **Global Search** - Search across agent memories and tasks
+- **Agent Recruitment** - Add new agents to your squad
+- **Environment Themes** - Switch between Fortress, Office, and Lab aesthetics
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗️ Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── page.tsx              # Main dashboard
+│   ├── mission-control/      # Alternative dashboard view
+│   └── api/auth/             # Authentication endpoints
+└── components/
+    ├── SimpleLogin.tsx       # Login component
+    ├── ProjectBoard.tsx      # Task visualization
+    ├── IsometricScene.tsx    # 3D agent grid
+    └── GlobalSearch.tsx      # Search interface
+```
 
-## Deploy on Vercel
+## 🔧 Configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Localhost-Only Access
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The dashboard is configured for local-only access by default. To access from other devices on your network, you can:
+
+1. Find your local IP: `ifconfig | grep "inet "`
+2. Access via: `http://your-local-ip:3000`
+
+### Permanent Local Address
+
+For a permanent local address (e.g., `nexus.local`), configure mDNS/Bonjour on your Mac:
+
+```bash
+# Your Mac should already broadcast as: <hostname>.local
+# Access the dashboard at: http://<your-mac-hostname>.local:3000
+```
+
+## 🛡️ Security
+
+- Passwords are hashed using bcrypt (10 rounds)
+- Session cookies are HTTP-only and secure
+- No external authentication dependencies
+- Designed for single-user, local-network usage
+
+## 📝 License
+
+This is a personal project for managing your AI agent infrastructure.
