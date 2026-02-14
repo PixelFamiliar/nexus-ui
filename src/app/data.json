@@ -92,13 +92,6 @@
       "updated": "15:38:12"
     },
     {
-      "id": "seed-order-solar-roi.md",
-      "title": "seed-order-solar-roi.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "15:39:08"
-    },
-    {
       "id": "2026-02-11-nexus-open-source.md",
       "title": "Open-Source Nexus Dashboard",
       "agent": "** JARVIS (LEAD) | DESIGNER | NOVA",
@@ -139,13 +132,6 @@
       "agent": "PIXEL",
       "status": "IN PROGRESS",
       "updated": "15:38:12"
-    },
-    {
-      "id": "seed-order-lead-gen.md",
-      "title": "seed-order-lead-gen.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "15:39:14"
     },
     {
       "id": "batch-001-ai-agent-workflows.md",
@@ -205,5 +191,5 @@
     "dailyYield": "+3.0% (Alpha Position)",
     "arbitrageOpportunity": "Kevin Warsh (74% Odds)"
   },
-  "last_update": "2026-02-14 16:02:08"
+  "last_update": "2026-02-14 16:10:26"
 }
