@@ -1,27 +1,6 @@
 {
   "tasks": [
     {
-      "id": "b9fb9624-682f-413d-86bb-77a29badbadd",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:1",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "23:49:08"
-    },
-    {
-      "id": "b135e1b6-14ba-443f-972d-480eb0843308",
-      "title": "Live Run: agent:main:cron:9928f803-f260-4b26-94cc-add874a19d61",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "22:00:00"
-    },
-    {
-      "id": "2026-02-12-neon-forge-launch.md",
-      "title": "2026-02-12-neon-forge-launch.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "21:56:16"
-    },
-    {
       "id": "2026-02-09-nexus-alpha-terminal.md",
       "title": "Nexus Alpha Terminal (Project Magnet)",
       "agent": "** JARVIS | DEVELOPER | WRITER",
@@ -85,6 +64,20 @@
       "updated": "21:03:52"
     },
     {
+      "id": "2026-02-13-flat-rate-hosting-launch.md",
+      "title": "2026-02-13-flat-rate-hosting-launch.md",
+      "agent": "PIXEL",
+      "status": "IN PROGRESS",
+      "updated": "16:31:15"
+    },
+    {
+      "id": "2026-02-13-clawcloud-outreach-pipeline.md",
+      "title": "2026-02-13-clawcloud-outreach-pipeline.md",
+      "agent": "PIXEL",
+      "status": "IN PROGRESS",
+      "updated": "17:15:48"
+    },
+    {
       "id": "2026-02-11-nexus-open-source.md",
       "title": "Open-Source Nexus Dashboard",
       "agent": "** JARVIS (LEAD) | DESIGNER | NOVA",
@@ -106,11 +99,25 @@
       "updated": "21:03:52"
     },
     {
+      "id": "clawtrak-launch-sprint.md",
+      "title": "clawtrak-launch-sprint.md",
+      "agent": "PIXEL",
+      "status": "IN PROGRESS",
+      "updated": "16:50:41"
+    },
+    {
       "id": "2026-02-12-launch-clawtrak.md",
       "title": "2026-02-12-launch-clawtrak.md",
       "agent": "** PIXEL, JARVIS, LOKI, FRIDAY",
       "status": "IN PROGRESS",
       "updated": "21:03:52"
+    },
+    {
+      "id": "2026-02-12-neon-forge-launch.md",
+      "title": "2026-02-12-neon-forge-launch.md",
+      "agent": "PIXEL",
+      "status": "IN PROGRESS",
+      "updated": "21:56:16"
     },
     {
       "id": "batch-001-ai-agent-workflows.md",
@@ -125,288 +132,6 @@
       "agent": "** JARVIS",
       "status": "REVIEW",
       "updated": "21:03:52"
-    },
-    {
-      "id": "1a5e8c2c-3f83-48c9-8de8-ddb7778614a7",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "21:03:09"
-    },
-    {
-      "id": "2026-02-13-clawcloud-outreach-pipeline.md",
-      "title": "2026-02-13-clawcloud-outreach-pipeline.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "17:15:48"
-    },
-    {
-      "id": "clawtrak-launch-sprint.md",
-      "title": "clawtrak-launch-sprint.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "16:50:41"
-    },
-    {
-      "id": "2026-02-13-flat-rate-hosting-launch.md",
-      "title": "2026-02-13-flat-rate-hosting-launch.md",
-      "agent": "PIXEL",
-      "status": "IN PROGRESS",
-      "updated": "16:31:15"
-    },
-    {
-      "id": "f45bdcfb-1b44-4213-b800-5e78a3a24107",
-      "title": "Live Run: agent:main:telegram:group:-1003830836460:topic:25",
-      "agent": "MAIN",
-      "status": "EXECUTING",
-      "updated": "12:11:26"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Clawcloud Outreach Pipeline",
-      "last_worked": "2026-02-13 17:15",
-      "status": "IN PROGRESS",
-      "mtime": 1771024548.7005687,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Clawtrak Launch Sprint",
-      "last_worked": "2026-02-13 16:50",
-      "status": "IN PROGRESS",
-      "mtime": 1771023041.6578126,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Flat Rate Hosting Launch",
-      "last_worked": "2026-02-13 16:31",
-      "status": "IN PROGRESS",
-      "mtime": 1771021875.0461972,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Neon Forge Launch",
-      "last_worked": "2026-02-12 21:56",
-      "status": "IN PROGRESS",
-      "mtime": 1770954976.278713,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Unbrowse Polymarket",
-      "last_worked": "2026-02-12 21:03",
-      "status": "REVIEW",
-      "mtime": 1770951832.392106,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Research Babyagi3 Tools",
-      "last_worked": "2026-02-12 21:03",
-      "status": "INBOX",
-      "mtime": 1770951832.391838,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Build Setup Kit",
-      "last_worked": "2026-02-12 21:03",
-      "status": "INBOX",
-      "mtime": 1770951832.3917322,
-      "agent": "** DEVELOPER"
-    },
-    {
-      "name": "Nexus Alpha Terminal",
-      "last_worked": "2026-02-12 21:03",
-      "status": "INBOX",
-      "mtime": 1770951832.3916786,
-      "agent": "** JARVIS | DEVELOPER | WRITER"
-    },
-    {
-      "name": "Substack Staging",
-      "last_worked": "2026-02-12 21:03",
-      "status": "INBOX",
-      "mtime": 1770951832.3916276,
-      "agent": "** DEVELOPER | WRITER"
-    },
-    {
-      "name": "Substack Refactor",
-      "last_worked": "2026-02-12 21:03",
-      "status": "INBOX",
-      "mtime": 1770951832.391578,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Batch 001 Ai Agent Workflows",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3914661,
-      "agent": "** CONTENT-PIPELINE (FRIDAY \u2192 NOVA \u2192 LOKI \u2192 ATHENA \u2192 MERCURY)"
-    },
-    {
-      "name": "Launch Clawtrak",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3914082,
-      "agent": "** PIXEL, JARVIS, LOKI, FRIDAY"
-    },
-    {
-      "name": "Revenue Skills Build",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3913505,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Openclaw Setup Kit",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.391293,
-      "agent": "** JARVIS (LEAD) | LOKI | NOVA | SECURITY"
-    },
-    {
-      "name": "Niche Content Site",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3912413,
-      "agent": "** FRIDAY (RESEARCH) | NOVA (SEO) | LOKI (WRITING) | ATHENA (EDITING) | JARVIS (INFRA)"
-    },
-    {
-      "name": "Nexus Open Source",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3911822,
-      "agent": "** JARVIS (LEAD) | DESIGNER | NOVA"
-    },
-    {
-      "name": "Discord Community Bot",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3911192,
-      "agent": "** JARVIS (LEAD) | FRIDAY | NOVA"
-    },
-    {
-      "name": "Agent Cost Analyzer",
-      "last_worked": "2026-02-12 21:03",
-      "status": "IN PROGRESS",
-      "mtime": 1770951832.3910673,
-      "agent": "** JARVIS (LEAD) | ATLAS | NOVA | DESIGNER"
-    },
-    {
-      "name": "Substack Audit Security",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3909342,
-      "agent": "PIXEL"
-    },
-    {
-      "name": "Winnipeg Hockey Income Pilot",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3907669,
-      "agent": "** GROWTH | DEVELOPER | RESEARCHER"
-    },
-    {
-      "name": "Scalestream Voice Deployment",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3907084,
-      "agent": "** VOICE | COORDINATOR"
-    },
-    {
-      "name": "Batch 001 Editing",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3906474,
-      "agent": "** ATHENA"
-    },
-    {
-      "name": "Voice Outreach",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3905911,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Substack Clawphone",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3905354,
-      "agent": "** WRITER"
-    },
-    {
-      "name": "Sentinel Sandbox",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3904757,
-      "agent": "** SENTINEL"
-    },
-    {
-      "name": "Monetize The Forge",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.390407,
-      "agent": "** GROWTH"
-    },
-    {
-      "name": "Scalestream Swarm",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3903503,
-      "agent": "** PIXEL (ORCHESTRATOR)"
-    },
-    {
-      "name": "Substack Automator",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3902986,
-      "agent": "** JARVIS | LOKI"
-    },
-    {
-      "name": "Sentinel Scanner",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3902454,
-      "agent": "** JARVIS"
-    },
-    {
-      "name": "Sponsor Deck",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3901985,
-      "agent": "** HERMES"
-    },
-    {
-      "name": "Originality Moat",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3901498,
-      "agent": "** FRIDAY | ATHENA"
-    },
-    {
-      "name": "Kumo Audit",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3900986,
-      "agent": "** FRIDAY"
-    },
-    {
-      "name": "Niche Research",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.390047,
-      "agent": "** RESEARCHER"
-    },
-    {
-      "name": "Agent Infrastructure Research Digital",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3899941,
-      "agent": "** FRIDAY | HERMES"
-    },
-    {
-      "name": "Agent Discourse Tracker",
-      "last_worked": "2026-02-12 21:03",
-      "status": "DONE",
-      "mtime": 1770951832.3899336,
-      "agent": "** JARVIS"
     }
   ],
   "alpha": [
@@ -453,25 +178,11 @@
       "time": "2026-02-14 05:01:02"
     }
   ],
-  "market_intel": [
-    {
-      "ticker": "PBR",
-      "name": "Petrobras",
-      "change": "+1700.0%",
-      "mentions": 18
-    },
-    {
-      "ticker": "TDS",
-      "name": "Telephone and Data Systems",
-      "change": "+1200.0%",
-      "mentions": 13
-    },
-    {
-      "ticker": "IBKR",
-      "name": "Interactive Brokers",
-      "change": "+275.0%",
-      "mentions": 15
-    }
-  ],
-  "last_update": "2026-02-14 00:00:26"
+  "finance": {
+    "walletAddress": "0xD740df98...35cd",
+    "activeFloat": "$36.73 USDC",
+    "dailyYield": "+3.0% (Alpha Position)",
+    "arbitrageOpportunity": "Kevin Warsh (74% Odds)"
+  },
+  "last_update": "2026-02-14 00:52:38"
 }
