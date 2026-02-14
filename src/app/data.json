@@ -29,6 +29,20 @@
       "updated": "21:03:52"
     },
     {
+      "id": "us-solar-template-prep.md",
+      "title": "US Market \"Solar Sniper\" Template Prep \ud83d\udee0\ufe0f\ud83c\uddfa\ud83c\uddf8",
+      "agent": "** DEVELOPER (JARVIS) & SEO-OPTIMIZER (NOVA)",
+      "status": "INBOX",
+      "updated": "10:33:25"
+    },
+    {
+      "id": "us-solar-market-research.md",
+      "title": "US Sun Belt Solar Market Deep Dive \ud83c\uddfa\ud83c\uddf8\u2600\ufe0f",
+      "agent": "** RESEARCHER (FRIDAY)",
+      "status": "INBOX",
+      "updated": "10:33:19"
+    },
+    {
       "id": "build-setup-kit.md",
       "title": "Implement \"Setup as a Service\" Kit",
       "agent": "** DEVELOPER",
@@ -177,5 +191,5 @@
     "dailyYield": "+3.0% (Alpha Position)",
     "arbitrageOpportunity": "Kevin Warsh (74% Odds)"
   },
-  "last_update": "2026-02-14 10:17:43"
+  "last_update": "2026-02-14 10:48:17"
 }
