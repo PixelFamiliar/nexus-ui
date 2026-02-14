@@ -136,13 +136,6 @@
   ],
   "alpha": [
     {
-      "rank": "ALPHA",
-      "source": "ARBITRAGE",
-      "handle": "QUANT",
-      "title": "Shadow Alpha: Q1 Rate Divergence: 6.0% Spread",
-      "time": "Fri Feb 13 08:08:56 CST 2026"
-    },
-    {
       "rank": 1,
       "source": "X",
       "handle": "StevieNumeroUno",
@@ -184,5 +177,5 @@
     "dailyYield": "+3.0% (Alpha Position)",
     "arbitrageOpportunity": "Kevin Warsh (74% Odds)"
   },
-  "last_update": "2026-02-14 04:00:15"
+  "last_update": "2026-02-14 04:00:27"
 }
